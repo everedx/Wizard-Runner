@@ -1320,7 +1320,7 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 65535
+        atime1: 29684
         atime2: 0
         atime3: 0
         atime4: 0
@@ -4859,7 +4859,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -4903,8 +4903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dea103035de9fe8419cf74e69aa4f26b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impulseUp: 30
-  initialSpeed: 10
+  impulseUp: 50
+  initialSpeed: 15
   speedIncrement: 5
   incrementInterval: 200
   ps: {fileID: 91490903334292084}

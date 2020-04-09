@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4540065385905928339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4540065385905928336}
+  - component: {fileID: 4540065385905928337}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4540065385905928336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4540065385905928339}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 89.78046, y: 32.16491, z: -168.03125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4540065385905928337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4540065385905928339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5cce745ba2978c4fbfd6ecea8cebdf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabsStaticObstacles:
+  - {fileID: 5795559050049545571, guid: 422cedcbe4b9bdd40a79822eeb119f2a, type: 3}
+  prefabsCoins:
+  - {fileID: 4684474011946636532, guid: a0c2e927cbd641b44bb29981a81732ca, type: 3}
+  - {fileID: 6602006024277910117, guid: 05ad053fd7708be46a6f4d7e95aa36ef, type: 3}
+  - {fileID: 5866480488165106378, guid: 0f88d99b51672d4458f92ad78646027e, type: 3}
+  distanceBetweenGenerations: 35
+  minNunberOfCoinsPerGenation: 1
+  maxNunberOfCoinsPerGenation: 2
+  minNunberOfObstaclesPerGenation: 3
+  maxNunberOfObstaclesPerGenation: 6
+  ratioObstaclesRoundCoinsRound: 2
+  spaceBetweenRounds: 50

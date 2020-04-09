@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 901050249386355381}
   - component: {fileID: 4075942837236623846}
   - component: {fileID: 5705716060294232852}
+  - component: {fileID: 1733227630116165967}
   m_Layer: 0
   m_Name: ObstableStatic1
   m_TagString: Obstacle
@@ -108,3 +109,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12, y: 0.6}
   m_EdgeRadius: 0
+--- !u!114 &1733227630116165967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5795559050049545571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0267bcbc13d1f34dbd5f61ddb208a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

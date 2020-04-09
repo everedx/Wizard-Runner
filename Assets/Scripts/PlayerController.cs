@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,17 +13,28 @@ public class PlayerController : MonoBehaviour
     [SerializeField] int incrementInterval;
     [SerializeField] ParticleSystem ps;
     [SerializeField] int particlesPerSecond;
+    [SerializeField] Text textDistance;
+
+    private Vector2 iniPos;
+    private int distance;
     private int speed;
+
+    public int Distance { get => distance; }
+
     // Start is called before the first frame update
     void Start()
     {
+
         rBody = GetComponent<Rigidbody2D>();
         speed = initialSpeed;
+        iniPos = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        distance = (int)transform.position.x - (int)iniPos.x;
+        textDistance.text = distance.ToString() + " m";
         rBody.velocity = new Vector3(speed,rBody.velocity.y,0);
         
         if (Input.touchCount == 0)
@@ -34,6 +46,8 @@ public class PlayerController : MonoBehaviour
             changeEmissionOverTime(particlesPerSecond);
             rBody.AddForce(new Vector3(0, impulseUp, 0));
         }
+
+
 
     }
 

@@ -98,15 +98,6 @@ public class LevelGenerator : MonoBehaviour
             }
 
 
-            //if (lastSequenceMode == 1)
-            //{
-            //    generateCoins();
-            //}
-            //if (lastSequenceMode == 2)
-            //{
-            //    generateObstacles();
-            //}
-
 
         }
 
@@ -157,7 +148,7 @@ public class LevelGenerator : MonoBehaviour
         numberOfItemsInSequence = UnityEngine.Random.Range(minNunberOfObstaclesPerGenation, maxNunberOfObstaclesPerGenation + 1);
         for (int i = 0; i < numberOfItemsInSequence; i++)
         {
-            Instantiate(prefabsStaticObstacles[UnityEngine.Random.Range(0, prefabsStaticObstacles.Length)], new Vector3(Camera.main.transform.position.x + spaceBetweenRounds + distanceBetweenGenerations * i, UnityEngine.Random.Range(-5, 5), 10), Quaternion.Euler(0, 0, UnityEngine.Random.Range(0, 360)));
+            Instantiate(prefabsStaticObstacles[UnityEngine.Random.Range(0, prefabsStaticObstacles.Length)], new Vector3(Camera.main.transform.position.x + spaceBetweenRounds + distanceBetweenGenerations * i, UnityEngine.Random.Range(-6, 6+1), 10), Quaternion.Euler(0, 0, UnityEngine.Random.Range(0, 360)));
         }
         positionToCheck = Camera.main.transform.position.x + spaceBetweenRounds * 2 + distanceBetweenGenerations * (numberOfItemsInSequence);
     }

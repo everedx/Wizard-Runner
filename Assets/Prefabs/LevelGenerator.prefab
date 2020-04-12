@@ -45,6 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabsStaticObstacles:
   - {fileID: 5795559050049545571, guid: 422cedcbe4b9bdd40a79822eeb119f2a, type: 3}
+  - {fileID: 5795559050049545571, guid: 67416842fa61d9748826da39e7f2449d, type: 3}
   prefabsCoins:
   - {fileID: 4684474011946636532, guid: a0c2e927cbd641b44bb29981a81732ca, type: 3}
   - {fileID: 6602006024277910117, guid: 05ad053fd7708be46a6f4d7e95aa36ef, type: 3}

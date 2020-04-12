@@ -12,6 +12,8 @@ public class PlayerHealth : MonoBehaviour
     private int currentHealth;
     SpriteRenderer sr;
 
+    public int CurrentHealth { get => currentHealth; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +42,16 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth += value;
         Debug.Log("Health: " + currentHealth);
+        if (value > 0)
+        {
+            GameObject.Find("HeartContainer").GetComponent<HeartContainer>().addHP();
+        }
+        if (value < 0)
+        {
+            GameObject.Find("HeartContainer").GetComponent<HeartContainer>().lostHP();
+        }
+                
+
         if (getHealth() <= 0)
         {
             Debug.Log("Game Over");

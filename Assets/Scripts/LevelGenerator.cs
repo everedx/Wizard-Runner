@@ -20,8 +20,11 @@ public class LevelGenerator : MonoBehaviour
    // private int[] numbersOfLoto;
     private int[] numbersLotoCoins;
     private int[] numbersLotoObstacles;
+    private int[] numbersLotoCoinsCopy;
+    private int[] numbersLotoObstaclesCopy;
     private float positionToCheck;
     private int numberOfItemsInSequence;
+    private int lastSequenceMode; //0 = 1 obstacles , 2 = coins
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +32,7 @@ public class LevelGenerator : MonoBehaviour
         
         int y = calculateMaxValueValuesRatio(ratioObstaclesRoundCoinsRound);
         int x = 1;
+        lastSequenceMode = 0;
         positionToCheck = 0;
         generateNext = true;
         numbersLotoCoins = new int[y];
@@ -44,6 +48,8 @@ public class LevelGenerator : MonoBehaviour
             x++;
         }
         positionToCheck = Camera.main.transform.position.x + spaceBetweenRounds + 50;
+        numbersLotoCoinsCopy = (int[])numbersLotoCoins.Clone();
+        numbersLotoObstaclesCopy = (int[])numbersLotoObstacles.Clone();
     }
 
     // Update is called once per frame
@@ -61,22 +67,45 @@ public class LevelGenerator : MonoBehaviour
             randomModeChooser = UnityEngine.Random.Range(1, 100+1);
             if (Array.IndexOf(numbersLotoCoins, randomModeChooser) != -1)
             {
-                numberOfItemsInSequence = UnityEngine.Random.Range(minNunberOfCoinsPerGenation, maxNunberOfCoinsPerGenation+1);
-                for (int i = 0; i < numberOfItemsInSequence; i++)
+                if (lastSequenceMode == 2)
                 {
-                    Instantiate(prefabsCoins[UnityEngine.Random.Range(0,prefabsCoins.Length)],new Vector3(Camera.main.transform.position.x+spaceBetweenRounds + distanceBetweenGenerations*i,0,10),Quaternion.identity);
+                    numbersLotoObstacles = (int[])numbersLotoObstaclesCopy.Clone();
                 }
-                positionToCheck = Camera.main.transform.position.x+spaceBetweenRounds*2 + distanceBetweenGenerations * (numberOfItemsInSequence);
+                generateCoins();
+                removeHalfValues(ref numbersLotoCoins);
             }
-            else if(Array.IndexOf(numbersLotoObstacles, randomModeChooser) != -1)
+            else if (Array.IndexOf(numbersLotoObstacles, randomModeChooser) != -1)
             {
-                numberOfItemsInSequence = UnityEngine.Random.Range(minNunberOfObstaclesPerGenation, maxNunberOfObstaclesPerGenation+1);
-                for (int i = 0; i < numberOfItemsInSequence; i++)
+                if (lastSequenceMode == 1)
                 {
-                    Instantiate(prefabsStaticObstacles[UnityEngine.Random.Range(0, prefabsStaticObstacles.Length)], new Vector3(Camera.main.transform.position.x+spaceBetweenRounds + distanceBetweenGenerations * i, UnityEngine.Random.Range(-5,5), 10), Quaternion.Euler(0, 0, UnityEngine.Random.Range(0, 360)));
+                    numbersLotoCoins = (int[])numbersLotoCoinsCopy.Clone();
                 }
-                positionToCheck = Camera.main.transform.position.x+spaceBetweenRounds*2 + distanceBetweenGenerations * (numberOfItemsInSequence);
+                generateObstacles();
+                removeHalfValues(ref numbersLotoObstacles);
             }
+            else 
+            {
+                if (lastSequenceMode == 1)
+                {
+                    generateCoins();
+                    numbersLotoObstacles =(int[])numbersLotoObstaclesCopy.Clone();
+                }
+                else if (lastSequenceMode == 2)
+                {
+                    generateObstacles();
+                    numbersLotoCoins = (int[])numbersLotoCoinsCopy.Clone();
+                }
+            }
+
+
+            //if (lastSequenceMode == 1)
+            //{
+            //    generateCoins();
+            //}
+            //if (lastSequenceMode == 2)
+            //{
+            //    generateObstacles();
+            //}
 
 
         }
@@ -95,4 +124,53 @@ public class LevelGenerator : MonoBehaviour
 
         return (int)x;
     }
+
+    private void removeHalfValues(ref int[] array)
+    {
+        int count = 0;
+        for (int i = 0; i < array.Length; ++i)
+        {
+            if (array[i] != 0)
+                count++;
+        }
+        count = count / 2;
+        for (int i = 0;i<array.Length; i++)
+        {
+            if (array[i] != 0)
+            {
+                array[i] = 0;
+                count--;
+                if (count <= 0)
+                {
+                    break;
+                }
+            }
+        }
+       
+    }
+
+
+
+    private void generateObstacles()
+    {
+        lastSequenceMode = 1;
+        numberOfItemsInSequence = UnityEngine.Random.Range(minNunberOfObstaclesPerGenation, maxNunberOfObstaclesPerGenation + 1);
+        for (int i = 0; i < numberOfItemsInSequence; i++)
+        {
+            Instantiate(prefabsStaticObstacles[UnityEngine.Random.Range(0, prefabsStaticObstacles.Length)], new Vector3(Camera.main.transform.position.x + spaceBetweenRounds + distanceBetweenGenerations * i, UnityEngine.Random.Range(-5, 5), 10), Quaternion.Euler(0, 0, UnityEngine.Random.Range(0, 360)));
+        }
+        positionToCheck = Camera.main.transform.position.x + spaceBetweenRounds * 2 + distanceBetweenGenerations * (numberOfItemsInSequence);
+    }
+
+    private void generateCoins()
+    {
+        lastSequenceMode = 2;
+        numberOfItemsInSequence = UnityEngine.Random.Range(minNunberOfCoinsPerGenation, maxNunberOfCoinsPerGenation + 1);
+        for (int i = 0; i < numberOfItemsInSequence; i++)
+        {
+            Instantiate(prefabsCoins[UnityEngine.Random.Range(0, prefabsCoins.Length)], new Vector3(Camera.main.transform.position.x + spaceBetweenRounds + distanceBetweenGenerations * i, 0, 10), Quaternion.identity);
+        }
+        positionToCheck = Camera.main.transform.position.x + spaceBetweenRounds * 2 + distanceBetweenGenerations * (numberOfItemsInSequence);
+    }
+
 }

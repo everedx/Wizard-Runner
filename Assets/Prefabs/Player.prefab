@@ -4832,8 +4832,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8981901231436183394, guid: d7290fbabd185e34caa0a1ab98e32e82,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: ebd6291532c94d44c9d78f15b214fb29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4905,10 +4904,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   impulseUp: 50
   initialSpeed: 15
-  speedIncrement: 5
-  incrementInterval: 200
+  speedIncrement: 4
+  incrementInterval: 500
   ps: {fileID: 91490903334292084}
   particlesPerSecond: 22
+  textDistance: {fileID: 0}
+  debugMode: 0
 --- !u!114 &8679348020989027017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4936,6 +4937,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valueOfCoins: 10
+  textCoins: {fileID: 0}
+  textAcumulator: {fileID: 0}
 --- !u!95 &1706049635133808087
 Animator:
   serializedVersion: 3

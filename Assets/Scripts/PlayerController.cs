@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using everedxCode;
 
 public class PlayerController : MonoBehaviour
 {
+    
 
     Rigidbody2D rBody;
     [SerializeField] int impulseUp;
@@ -14,7 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] ParticleSystem ps;
     [SerializeField] int particlesPerSecond;
     [SerializeField] Text textDistance;
-
+    [SerializeField] bool debugMode;
     private Vector2 iniPos;
     private int distance;
     private int speed;
@@ -47,13 +49,20 @@ public class PlayerController : MonoBehaviour
             rBody.AddForce(new Vector3(0, impulseUp, 0));
         }
 
-
+        if (distance > incrementInterval)
+        {
+            if(debugMode)
+                Utils.showFloatingText("Speed Up!", transform.position,transform,speed+ speedIncrement,4f);
+            speed += speedIncrement;
+            incrementInterval = incrementInterval + distance + speedIncrement * 20;
+        }
 
     }
 
 
     private void changeEmissionOverTime(float value)
     {
+     
         var emission = ps.emission;
         emission.rateOverTime = value;
     }

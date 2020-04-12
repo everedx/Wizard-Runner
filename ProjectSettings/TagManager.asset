@@ -18,7 +18,7 @@ TagManager:
   - Particles
   - Player
   - Terrain
-  - 
+  - Dummies
   - 
   - 
   - 
@@ -40,6 +40,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3094199017
+    locked: 0
+  - name: Parallax01
+    uniqueID: 3627427871
+    locked: 0
+  - name: Parallax02
+    uniqueID: 3787563509
+    locked: 0
+  - name: Parallax03
+    uniqueID: 2971338957
+    locked: 0
+  - name: Parallax04
+    uniqueID: 1167466713
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         distance = (int)transform.position.x - (int)iniPos.x;
         textDistance.text = distance.ToString() + " m";

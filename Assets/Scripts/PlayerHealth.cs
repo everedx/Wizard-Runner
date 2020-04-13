@@ -66,7 +66,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag.Equals("Obstacle") && invulCounter > timeInvulAfterHit)
+        if ((collision.tag.Equals("Obstacle") || collision.tag.Equals("Projectile")) && invulCounter > timeInvulAfterHit)
         {
             updateHealth(-1);
             invulCounter = 0;

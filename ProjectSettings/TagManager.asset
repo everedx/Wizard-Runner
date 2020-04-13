@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - ScoringObject
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -57,4 +58,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Proyectiles
+    uniqueID: 955657321
     locked: 0

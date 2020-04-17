@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] ParticleSystem ps;
     [SerializeField] int particlesPerSecond;
     [SerializeField] Text textDistance;
+    [SerializeField] DynamicParallaxController dynamicParallax;
     [SerializeField] bool debugMode;
     private Vector2 iniPos;
     private int distance;
@@ -55,6 +56,8 @@ public class PlayerController : MonoBehaviour
                 Utils.showFloatingText("Speed Up!", transform.position,transform,speed+ speedIncrement,4f);
             speed += speedIncrement;
             incrementInterval = incrementInterval + distance + speedIncrement * 20;
+            //Change background
+            dynamicParallax.ChangeBackGround();
         }
 
     }

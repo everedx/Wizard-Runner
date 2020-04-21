@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class DynamicParallaxController : MonoBehaviour
 {
@@ -18,8 +19,10 @@ public class DynamicParallaxController : MonoBehaviour
     [SerializeField] Sprite[] spritesRound1;
     [SerializeField] Sprite[] spritesRound2;
     [SerializeField] Sprite[] spritesRound3;
-    //[SerializeField] Sprite[] spritesRound4;
-    //[SerializeField] Sprite[] spritesRound5;
+    [SerializeField] Sprite[] spritesRound4;
+    [SerializeField] Sprite[] spritesRound5;
+    [SerializeField] Light2D lightObject;
+    [SerializeField] Color[] colorsLighting;
 
     private int i;
     private float timer;
@@ -44,12 +47,12 @@ public class DynamicParallaxController : MonoBehaviour
         {
             if (!hasToGoUp && !hasToGoDown)
                 animationMaterial.SetFloat("_Fade", 1);
-            else if (hasToGoDown && animationMaterial.GetFloat("_Fade") > 0.2f)
+            else if (hasToGoDown && animationMaterial.GetFloat("_Fade") > 0.15f)
             {
                 Debug.Log(animationMaterial.GetFloat("_Fade"));
                 animationMaterial.SetFloat("_Fade", animationMaterial.GetFloat("_Fade") - Time.deltaTime/2 );
                 Debug.Log(animationMaterial.GetFloat("_Fade"));
-                if (animationMaterial.GetFloat("_Fade") <= 0.2f)
+                if (animationMaterial.GetFloat("_Fade") <= 0.15f)
                 {
                     changingScenario = true;
                     hasToGoDown = false;
@@ -63,6 +66,7 @@ public class DynamicParallaxController : MonoBehaviour
                             parallaxMiddleBackRenderer.sprite = spritesRound1[2];
                             parallaxMiddlefrontRenderer.sprite = spritesRound1[3];
                             parallaxfrontRenderer.sprite = spritesRound1[4];
+                            
                             break;
                         case 1:
                             backgroundRenderer.sprite = spritesRound2[0];
@@ -78,9 +82,24 @@ public class DynamicParallaxController : MonoBehaviour
                             parallaxMiddlefrontRenderer.sprite = spritesRound3[3];
                             parallaxfrontRenderer.sprite = spritesRound3[4];
                             break;
+                        case 3:
+                            backgroundRenderer.sprite = spritesRound4[0];
+                            parallaxBackRenderer.sprite = spritesRound4[1];
+                            parallaxMiddleBackRenderer.sprite = spritesRound4[2];
+                            parallaxMiddlefrontRenderer.sprite = spritesRound4[3];
+                            parallaxfrontRenderer.sprite = spritesRound4[4];
+                            break;
+                        case 4:
+                            backgroundRenderer.sprite = spritesRound5[0];
+                            parallaxBackRenderer.sprite = spritesRound5[1];
+                            parallaxMiddleBackRenderer.sprite = spritesRound5[2];
+                            parallaxMiddlefrontRenderer.sprite = spritesRound5[3];
+                            parallaxfrontRenderer.sprite = spritesRound5[4];
+                            break;
 
 
                     }
+                    lightObject.color = colorsLighting[i];
                 }
 
             }
@@ -115,7 +134,7 @@ public class DynamicParallaxController : MonoBehaviour
     public void ChangeBackGround()
     {
         i++;
-        if (i > 2)
+        if (i > 4)
             i = 0;
         //take sprites from index i and place them
         hasToGoDown = true;

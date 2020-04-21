@@ -12,6 +12,9 @@ public class ProjectileWaveController : MonoBehaviour
 
     private Vector3 pos;
     private Vector3 leftVector;
+    private float sinFactor;
+    private float newRotation;
+    Vector3 dir;
     void Awake()
     {
         pos = transform.position;
@@ -22,8 +25,14 @@ public class ProjectileWaveController : MonoBehaviour
     void Update()
     { 
         pos += leftVector * Time.deltaTime * MoveSpeed;
-        transform.eulerAngles = new Vector3(0, 0, transform.eulerAngles.z + 10f);
-        transform.position = pos + axis * Mathf.Sin(Time.time * frequency) * magnitude;
-        
+        sinFactor = Mathf.Sin(Time.time * frequency);
+        transform.position = pos + axis * sinFactor * magnitude;
+        //transform.eulerAngles = new Vector3(0, 0, transform.eulerAngles.z + 10f);
+        dir = pos.normalized + axis.normalized * sinFactor;
+        newRotation = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        Debug.Log(newRotation);
+        transform.eulerAngles = new Vector3(0, 0, newRotation);
     }
+
+
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4305636838676720249}
   - component: {fileID: 5583201074090636097}
   - component: {fileID: 302227623876846129}
+  - component: {fileID: 2215751610633246536}
   m_Layer: 0
   m_Name: Coin (29)
   m_TagString: ScoringObject
@@ -74,8 +75,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -102,6 +104,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2215751610633246536
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37749068706887056}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &132780509221473206
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,6 +134,7 @@ GameObject:
   - component: {fileID: 9172128367321534696}
   - component: {fileID: 5496981100622913899}
   - component: {fileID: 9169938466049382883}
+  - component: {fileID: 867353363142730611}
   m_Layer: 0
   m_Name: Coin (28)
   m_TagString: ScoringObject
@@ -173,8 +195,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -200,6 +223,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &867353363142730611
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132780509221473206}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &142443808667788669
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +254,7 @@ GameObject:
   - component: {fileID: 1837093770996567828}
   - component: {fileID: 8539345005878045098}
   - component: {fileID: 8437229329623536390}
+  - component: {fileID: 6347543551824206036}
   m_Layer: 0
   m_Name: Coin (20)
   m_TagString: ScoringObject
@@ -274,8 +317,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -302,6 +346,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6347543551824206036
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142443808667788669}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &169136793265508061
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +377,7 @@ GameObject:
   - component: {fileID: 2977501325787367234}
   - component: {fileID: 7816621378700292110}
   - component: {fileID: 8493810069803134760}
+  - component: {fileID: 6046032151482648596}
   m_Layer: 0
   m_Name: Coin (5)
   m_TagString: ScoringObject
@@ -376,8 +440,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -404,6 +469,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6046032151482648596
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169136793265508061}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &271351998704734141
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,6 +499,7 @@ GameObject:
   - component: {fileID: 1060215806084373622}
   - component: {fileID: 2974603047604372868}
   - component: {fileID: 822105670058165175}
+  - component: {fileID: 5131673247166914467}
   m_Layer: 0
   m_Name: Coin (24)
   m_TagString: ScoringObject
@@ -475,8 +560,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -502,6 +588,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &5131673247166914467
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271351998704734141}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &349095289536960922
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,6 +619,7 @@ GameObject:
   - component: {fileID: 919126495254192791}
   - component: {fileID: 4087346324938843479}
   - component: {fileID: 3177738730089989511}
+  - component: {fileID: 8150010133607608865}
   m_Layer: 0
   m_Name: Coin (23)
   m_TagString: ScoringObject
@@ -576,8 +682,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -604,6 +711,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &8150010133607608865
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349095289536960922}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &448343991481867238
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,6 +742,7 @@ GameObject:
   - component: {fileID: 2577116746991322861}
   - component: {fileID: 4173539993709769331}
   - component: {fileID: 3538371465540955513}
+  - component: {fileID: 7118969144146779520}
   m_Layer: 0
   m_Name: Coin
   m_TagString: ScoringObject
@@ -678,8 +805,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -706,6 +834,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7118969144146779520
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448343991481867238}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &533735935175582790
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,6 +865,7 @@ GameObject:
   - component: {fileID: 2454587499593295711}
   - component: {fileID: 3008840556814335905}
   - component: {fileID: 6888142166882155004}
+  - component: {fileID: 1043500651622873495}
   m_Layer: 0
   m_Name: Coin (13)
   m_TagString: ScoringObject
@@ -780,8 +928,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -808,6 +957,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1043500651622873495
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533735935175582790}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &577499187988540009
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +987,7 @@ GameObject:
   - component: {fileID: 5621347794962073395}
   - component: {fileID: 6392409818047475393}
   - component: {fileID: 4176370007208140854}
+  - component: {fileID: 114692289902029083}
   m_Layer: 0
   m_Name: Coin (29)
   m_TagString: ScoringObject
@@ -879,8 +1048,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -906,6 +1076,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &114692289902029083
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577499187988540009}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &655796972396011421
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,6 +1107,7 @@ GameObject:
   - component: {fileID: 4017541371888689303}
   - component: {fileID: 4817889326562420513}
   - component: {fileID: 5367455945930772926}
+  - component: {fileID: 2774469693143778801}
   m_Layer: 0
   m_Name: Coin (2)
   m_TagString: ScoringObject
@@ -980,8 +1170,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1008,6 +1199,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2774469693143778801
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655796972396011421}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &700322372846904072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,6 +1229,7 @@ GameObject:
   - component: {fileID: 5831905827441309763}
   - component: {fileID: 4720161436748451530}
   - component: {fileID: 6854298081226508554}
+  - component: {fileID: 979975998718874118}
   m_Layer: 0
   m_Name: Coin (3)
   m_TagString: ScoringObject
@@ -1079,8 +1290,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1106,6 +1318,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &979975998718874118
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700322372846904072}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &715990857628558158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1349,7 @@ GameObject:
   - component: {fileID: 70152043793511486}
   - component: {fileID: 8511998035056924228}
   - component: {fileID: 72976593023660617}
+  - component: {fileID: 1059913134749569163}
   m_Layer: 0
   m_Name: Coin (11)
   m_TagString: ScoringObject
@@ -1180,8 +1412,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1208,6 +1441,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1059913134749569163
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715990857628558158}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &729419187025714095
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,6 +1472,7 @@ GameObject:
   - component: {fileID: 7863076082342555893}
   - component: {fileID: 2908420810369132310}
   - component: {fileID: 6665304879166904923}
+  - component: {fileID: 8079012707970974510}
   m_Layer: 0
   m_Name: Coin (3)
   m_TagString: ScoringObject
@@ -1282,8 +1535,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1310,6 +1564,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &8079012707970974510
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729419187025714095}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &896440259282415436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,6 +1594,7 @@ GameObject:
   - component: {fileID: 859712364643537635}
   - component: {fileID: 4409413400625521541}
   - component: {fileID: 5568914387521507489}
+  - component: {fileID: 6680946358853575943}
   m_Layer: 0
   m_Name: Coin (7)
   m_TagString: ScoringObject
@@ -1381,8 +1655,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1408,6 +1683,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6680946358853575943
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896440259282415436}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &920936277137953816
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,6 +1713,7 @@ GameObject:
   - component: {fileID: 22659723089041157}
   - component: {fileID: 6597379832427934141}
   - component: {fileID: 6116615031689787152}
+  - component: {fileID: 3311606135563738786}
   m_Layer: 0
   m_Name: Coin (13)
   m_TagString: ScoringObject
@@ -1479,8 +1774,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1506,6 +1802,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &3311606135563738786
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920936277137953816}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1359078864547625720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,6 +1833,7 @@ GameObject:
   - component: {fileID: 8943391655352787993}
   - component: {fileID: 6992728250666979944}
   - component: {fileID: 7577778164706886151}
+  - component: {fileID: 2165534721255122914}
   m_Layer: 0
   m_Name: Coin (17)
   m_TagString: ScoringObject
@@ -1580,8 +1896,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1608,6 +1925,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2165534721255122914
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359078864547625720}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1532141788024126354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,6 +1956,7 @@ GameObject:
   - component: {fileID: 6800796218375040588}
   - component: {fileID: 7911370073617635882}
   - component: {fileID: 4059713412355425438}
+  - component: {fileID: 8309232813288389753}
   m_Layer: 0
   m_Name: Coin (7)
   m_TagString: ScoringObject
@@ -1682,8 +2019,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1710,6 +2048,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &8309232813288389753
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532141788024126354}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1555304723827757663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1722,6 +2079,7 @@ GameObject:
   - component: {fileID: 972921149515448683}
   - component: {fileID: 5661592437416315060}
   - component: {fileID: 5053283389350838734}
+  - component: {fileID: 7837211496596826816}
   m_Layer: 0
   m_Name: Coin (22)
   m_TagString: ScoringObject
@@ -1784,8 +2142,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1812,6 +2171,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7837211496596826816
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555304723827757663}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1557823124195219787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,6 +2202,7 @@ GameObject:
   - component: {fileID: 4551164719594208723}
   - component: {fileID: 8049307449898659590}
   - component: {fileID: 9163931007662417377}
+  - component: {fileID: 1794538110393228107}
   m_Layer: 0
   m_Name: Coin (2)
   m_TagString: ScoringObject
@@ -1886,8 +2265,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1914,6 +2294,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1794538110393228107
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557823124195219787}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1669888752273983580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1925,6 +2324,7 @@ GameObject:
   - component: {fileID: 4500408600992424524}
   - component: {fileID: 3786818200433094962}
   - component: {fileID: 1904418314665123102}
+  - component: {fileID: 3148516643053482161}
   m_Layer: 0
   m_Name: Coin
   m_TagString: ScoringObject
@@ -1985,8 +2385,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2012,6 +2413,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &3148516643053482161
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669888752273983580}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1832081023778470742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2085,6 +2505,7 @@ GameObject:
   - component: {fileID: 6714611378447566819}
   - component: {fileID: 6240708859735395643}
   - component: {fileID: 1015583673478667015}
+  - component: {fileID: 8599071796075342579}
   m_Layer: 0
   m_Name: Coin (5)
   m_TagString: ScoringObject
@@ -2145,8 +2566,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2172,6 +2594,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &8599071796075342579
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850360521851061047}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2067042435850037806
 GameObject:
   m_ObjectHideFlags: 0
@@ -2184,6 +2625,7 @@ GameObject:
   - component: {fileID: 5972906179559125221}
   - component: {fileID: 2699216203782044364}
   - component: {fileID: 7262862205082162837}
+  - component: {fileID: 2237649391940938946}
   m_Layer: 0
   m_Name: Coin (26)
   m_TagString: ScoringObject
@@ -2246,8 +2688,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2274,6 +2717,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2237649391940938946
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067042435850037806}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2142125167041392388
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,6 +2748,7 @@ GameObject:
   - component: {fileID: 1757041447870678760}
   - component: {fileID: 8419078565760796616}
   - component: {fileID: 8840618261030042048}
+  - component: {fileID: 2848752490349323927}
   m_Layer: 0
   m_Name: Coin (6)
   m_TagString: ScoringObject
@@ -2348,8 +2811,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2376,6 +2840,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2848752490349323927
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142125167041392388}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2203778999896950996
 GameObject:
   m_ObjectHideFlags: 0
@@ -2388,6 +2871,7 @@ GameObject:
   - component: {fileID: 6013225328574387091}
   - component: {fileID: 397591359269301040}
   - component: {fileID: 6781403576507347076}
+  - component: {fileID: 6738432060765017094}
   m_Layer: 0
   m_Name: Coin (10)
   m_TagString: ScoringObject
@@ -2450,8 +2934,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2478,6 +2963,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6738432060765017094
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2203778999896950996}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2327451731406771739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,6 +2994,7 @@ GameObject:
   - component: {fileID: 3841238409065304461}
   - component: {fileID: 8308603452466948141}
   - component: {fileID: 8098235893868081627}
+  - component: {fileID: 8933535204635699227}
   m_Layer: 0
   m_Name: Coin (5)
   m_TagString: ScoringObject
@@ -2552,8 +3057,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2580,6 +3086,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &8933535204635699227
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2327451731406771739}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2416301688102147069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2592,6 +3117,7 @@ GameObject:
   - component: {fileID: 6062304408723492405}
   - component: {fileID: 6969812053898823283}
   - component: {fileID: 9121327992631787706}
+  - component: {fileID: 7155881081471066426}
   m_Layer: 0
   m_Name: Coin (3)
   m_TagString: ScoringObject
@@ -2654,8 +3180,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2682,6 +3209,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7155881081471066426
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416301688102147069}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2461291682134091478
 GameObject:
   m_ObjectHideFlags: 0
@@ -2694,6 +3240,7 @@ GameObject:
   - component: {fileID: 8578105617752700751}
   - component: {fileID: 3439405135345312968}
   - component: {fileID: 6459675224820150480}
+  - component: {fileID: 4888674390072678335}
   m_Layer: 0
   m_Name: Coin (6)
   m_TagString: ScoringObject
@@ -2756,8 +3303,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2784,6 +3332,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4888674390072678335
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2461291682134091478}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2510286618983789800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2795,6 +3362,7 @@ GameObject:
   - component: {fileID: 3799474140521823805}
   - component: {fileID: 4607396698751838016}
   - component: {fileID: 1673287843383629473}
+  - component: {fileID: 4514538883089585482}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: ScoringObject
@@ -2855,8 +3423,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2882,6 +3451,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4514538883089585482
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510286618983789800}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2533306884984687973
 GameObject:
   m_ObjectHideFlags: 0
@@ -2894,6 +3482,7 @@ GameObject:
   - component: {fileID: 6856626121999846946}
   - component: {fileID: 2654126929073324283}
   - component: {fileID: 6807825210444829446}
+  - component: {fileID: 7448292455790338605}
   m_Layer: 0
   m_Name: Coin (27)
   m_TagString: ScoringObject
@@ -2956,8 +3545,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2984,6 +3574,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7448292455790338605
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2533306884984687973}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2560818029561311013
 GameObject:
   m_ObjectHideFlags: 0
@@ -2996,6 +3605,7 @@ GameObject:
   - component: {fileID: 1369609812898496613}
   - component: {fileID: 2811295066849376757}
   - component: {fileID: 8604099895029675685}
+  - component: {fileID: 5671594796042991440}
   m_Layer: 0
   m_Name: Coin (28)
   m_TagString: ScoringObject
@@ -3058,8 +3668,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3086,6 +3697,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &5671594796042991440
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2560818029561311013}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2688341887997030201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3098,6 +3728,7 @@ GameObject:
   - component: {fileID: 7838569170082705155}
   - component: {fileID: 6936364472117175786}
   - component: {fileID: 307169289655258347}
+  - component: {fileID: 663226706612561493}
   m_Layer: 0
   m_Name: Coin (27)
   m_TagString: ScoringObject
@@ -3160,8 +3791,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3188,6 +3820,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &663226706612561493
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2688341887997030201}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2851285811405731355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3200,6 +3851,7 @@ GameObject:
   - component: {fileID: 7030255288482031349}
   - component: {fileID: 8582448117645137921}
   - component: {fileID: 4132087308377303443}
+  - component: {fileID: 7558921933725505789}
   m_Layer: 0
   m_Name: Coin (24)
   m_TagString: ScoringObject
@@ -3262,8 +3914,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3290,6 +3943,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7558921933725505789
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2851285811405731355}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3233522240512577498
 GameObject:
   m_ObjectHideFlags: 0
@@ -3302,6 +3974,7 @@ GameObject:
   - component: {fileID: 6953081990563921896}
   - component: {fileID: 8038250238860457268}
   - component: {fileID: 7236294248478739741}
+  - component: {fileID: 6357808739725179133}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: ScoringObject
@@ -3364,8 +4037,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3392,6 +4066,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6357808739725179133
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233522240512577498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3299167253017962359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3404,6 +4097,7 @@ GameObject:
   - component: {fileID: 6901528887051639910}
   - component: {fileID: 2095462849265274769}
   - component: {fileID: 1504886915227401275}
+  - component: {fileID: 4581867400235777381}
   m_Layer: 0
   m_Name: Coin (4)
   m_TagString: ScoringObject
@@ -3466,8 +4160,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3494,6 +4189,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4581867400235777381
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3299167253017962359}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3351365775337717981
 GameObject:
   m_ObjectHideFlags: 0
@@ -3505,6 +4219,7 @@ GameObject:
   - component: {fileID: 5021873690425256138}
   - component: {fileID: 979909589097038098}
   - component: {fileID: 1576849803987569092}
+  - component: {fileID: 6202481972982220853}
   m_Layer: 0
   m_Name: Coin (2)
   m_TagString: ScoringObject
@@ -3565,8 +4280,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3592,6 +4308,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6202481972982220853
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3351365775337717981}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3361141116015145278
 GameObject:
   m_ObjectHideFlags: 0
@@ -3604,6 +4339,7 @@ GameObject:
   - component: {fileID: 2195817931432761872}
   - component: {fileID: 6140993661851773354}
   - component: {fileID: 2328366037536711059}
+  - component: {fileID: 2707730677080802821}
   m_Layer: 0
   m_Name: Coin (19)
   m_TagString: ScoringObject
@@ -3666,8 +4402,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3694,6 +4431,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2707730677080802821
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361141116015145278}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3389824059501985543
 GameObject:
   m_ObjectHideFlags: 0
@@ -3706,6 +4462,7 @@ GameObject:
   - component: {fileID: 2972866877449159649}
   - component: {fileID: 7279357979506846243}
   - component: {fileID: 7348001558671094249}
+  - component: {fileID: 7495010820806905102}
   m_Layer: 0
   m_Name: Coin (26)
   m_TagString: ScoringObject
@@ -3768,8 +4525,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3796,6 +4554,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7495010820806905102
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3389824059501985543}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3431082571677097336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3807,6 +4584,7 @@ GameObject:
   - component: {fileID: 510588138119894180}
   - component: {fileID: 1571289895638166281}
   - component: {fileID: 7807261470794731754}
+  - component: {fileID: 2290383928326348404}
   m_Layer: 0
   m_Name: Coin (14)
   m_TagString: ScoringObject
@@ -3867,8 +4645,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3894,6 +4673,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2290383928326348404
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3431082571677097336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3475725231794641438
 GameObject:
   m_ObjectHideFlags: 0
@@ -3906,6 +4704,7 @@ GameObject:
   - component: {fileID: 8511506635760069342}
   - component: {fileID: 2718173863147495865}
   - component: {fileID: 2280685282158385950}
+  - component: {fileID: 2800610609970216011}
   m_Layer: 0
   m_Name: Coin (16)
   m_TagString: ScoringObject
@@ -3968,8 +4767,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3996,6 +4796,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2800610609970216011
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475725231794641438}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3525467211434878740
 GameObject:
   m_ObjectHideFlags: 0
@@ -4008,6 +4827,7 @@ GameObject:
   - component: {fileID: 3942354553915507527}
   - component: {fileID: 1995888374823875011}
   - component: {fileID: 9111066748997139293}
+  - component: {fileID: 4461595982421643669}
   m_Layer: 0
   m_Name: Coin (14)
   m_TagString: ScoringObject
@@ -4070,8 +4890,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4098,6 +4919,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4461595982421643669
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525467211434878740}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3532434349028125523
 GameObject:
   m_ObjectHideFlags: 0
@@ -4109,6 +4949,7 @@ GameObject:
   - component: {fileID: 1306448730758798093}
   - component: {fileID: 9108726204064391573}
   - component: {fileID: 7833378192658692702}
+  - component: {fileID: 6971906569590205529}
   m_Layer: 0
   m_Name: Coin (25)
   m_TagString: ScoringObject
@@ -4169,8 +5010,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4196,6 +5038,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6971906569590205529
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3532434349028125523}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3664159668365074118
 GameObject:
   m_ObjectHideFlags: 0
@@ -4208,6 +5069,7 @@ GameObject:
   - component: {fileID: 2982077774515679849}
   - component: {fileID: 6129563134436700667}
   - component: {fileID: 5947634525225506132}
+  - component: {fileID: 9071437974666395842}
   m_Layer: 0
   m_Name: Coin (18)
   m_TagString: ScoringObject
@@ -4270,8 +5132,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4298,6 +5161,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &9071437974666395842
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664159668365074118}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3684339181332282252
 GameObject:
   m_ObjectHideFlags: 0
@@ -4310,6 +5192,7 @@ GameObject:
   - component: {fileID: 5038045952053585122}
   - component: {fileID: 9120198317723001097}
   - component: {fileID: 64402226005111089}
+  - component: {fileID: 1918767835194002978}
   m_Layer: 0
   m_Name: Coin (13)
   m_TagString: ScoringObject
@@ -4372,8 +5255,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4400,6 +5284,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1918767835194002978
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3684339181332282252}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3727845156649765473
 GameObject:
   m_ObjectHideFlags: 0
@@ -4412,6 +5315,7 @@ GameObject:
   - component: {fileID: 6482987125153432319}
   - component: {fileID: 5359048248761955541}
   - component: {fileID: 4166217965513947285}
+  - component: {fileID: 4476548452738213783}
   m_Layer: 0
   m_Name: Coin (9)
   m_TagString: ScoringObject
@@ -4474,8 +5378,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4502,6 +5407,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4476548452738213783
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3727845156649765473}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3841094669806648154
 GameObject:
   m_ObjectHideFlags: 0
@@ -4514,6 +5438,7 @@ GameObject:
   - component: {fileID: 5886066661718517380}
   - component: {fileID: 4031587580169079876}
   - component: {fileID: 1282256666045979999}
+  - component: {fileID: 2216541826927975058}
   m_Layer: 0
   m_Name: Coin (9)
   m_TagString: ScoringObject
@@ -4576,8 +5501,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4604,6 +5530,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2216541826927975058
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841094669806648154}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3920915635120237576
 GameObject:
   m_ObjectHideFlags: 0
@@ -4616,6 +5561,7 @@ GameObject:
   - component: {fileID: 3276572386151913067}
   - component: {fileID: 6701126592466547994}
   - component: {fileID: 5926070869827351852}
+  - component: {fileID: 5855521632506614400}
   m_Layer: 0
   m_Name: Coin (16)
   m_TagString: ScoringObject
@@ -4678,8 +5624,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4706,6 +5653,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &5855521632506614400
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3920915635120237576}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3954491198793269955
 GameObject:
   m_ObjectHideFlags: 0
@@ -4717,6 +5683,7 @@ GameObject:
   - component: {fileID: 6317241484503039220}
   - component: {fileID: 5409616788114042677}
   - component: {fileID: 4570457444526182481}
+  - component: {fileID: 3531141377080485825}
   m_Layer: 0
   m_Name: Coin (21)
   m_TagString: ScoringObject
@@ -4777,8 +5744,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4804,6 +5772,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &3531141377080485825
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3954491198793269955}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3967633874095825188
 GameObject:
   m_ObjectHideFlags: 0
@@ -4815,6 +5802,7 @@ GameObject:
   - component: {fileID: 5638890524682012659}
   - component: {fileID: 1429067618428027634}
   - component: {fileID: 2920315375637271264}
+  - component: {fileID: 6217361145758172886}
   m_Layer: 0
   m_Name: Coin (9)
   m_TagString: ScoringObject
@@ -4875,8 +5863,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4902,6 +5891,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6217361145758172886
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3967633874095825188}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3993954631990279814
 GameObject:
   m_ObjectHideFlags: 0
@@ -4913,6 +5921,7 @@ GameObject:
   - component: {fileID: 8644545359226293925}
   - component: {fileID: 5285780532270178432}
   - component: {fileID: 4710413195484580656}
+  - component: {fileID: 3644780273350239747}
   m_Layer: 0
   m_Name: Coin (26)
   m_TagString: ScoringObject
@@ -4973,8 +5982,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5000,6 +6010,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &3644780273350239747
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3993954631990279814}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4007313305519311578
 GameObject:
   m_ObjectHideFlags: 0
@@ -5012,6 +6041,7 @@ GameObject:
   - component: {fileID: 1169053520730480684}
   - component: {fileID: 7202185251107385837}
   - component: {fileID: 6939193648677090814}
+  - component: {fileID: 1370326986874053349}
   m_Layer: 0
   m_Name: Coin (25)
   m_TagString: ScoringObject
@@ -5074,8 +6104,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5102,6 +6133,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1370326986874053349
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4007313305519311578}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4131060719192854183
 GameObject:
   m_ObjectHideFlags: 0
@@ -5114,6 +6164,7 @@ GameObject:
   - component: {fileID: 340826079011510016}
   - component: {fileID: 4876218803011378062}
   - component: {fileID: 5955569452034617375}
+  - component: {fileID: 7227070827739625463}
   m_Layer: 0
   m_Name: Coin (19)
   m_TagString: ScoringObject
@@ -5176,8 +6227,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5204,6 +6256,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7227070827739625463
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4131060719192854183}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4264729869421858232
 GameObject:
   m_ObjectHideFlags: 0
@@ -5216,6 +6287,7 @@ GameObject:
   - component: {fileID: 1289315594783461111}
   - component: {fileID: 1150613200553827927}
   - component: {fileID: 2431588044155095431}
+  - component: {fileID: 6516824808031511090}
   m_Layer: 0
   m_Name: Coin (29)
   m_TagString: ScoringObject
@@ -5278,8 +6350,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5306,6 +6379,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6516824808031511090
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4264729869421858232}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4655479207775922779
 GameObject:
   m_ObjectHideFlags: 0
@@ -5318,6 +6410,7 @@ GameObject:
   - component: {fileID: 7543001881281086113}
   - component: {fileID: 393505055736217988}
   - component: {fileID: 8163965559801259566}
+  - component: {fileID: 5205891863701683260}
   m_Layer: 0
   m_Name: Coin (20)
   m_TagString: ScoringObject
@@ -5380,8 +6473,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5408,6 +6502,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &5205891863701683260
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4655479207775922779}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4684474011946636532
 GameObject:
   m_ObjectHideFlags: 0
@@ -5466,6 +6579,7 @@ GameObject:
   - component: {fileID: 8109854472491455108}
   - component: {fileID: 5772572204964253857}
   - component: {fileID: 3096764839526461343}
+  - component: {fileID: 2115835100397402375}
   m_Layer: 0
   m_Name: Coin (7)
   m_TagString: ScoringObject
@@ -5528,8 +6642,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5556,6 +6671,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2115835100397402375
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4830936000915818588}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4985260231506083090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5567,6 +6701,7 @@ GameObject:
   - component: {fileID: 9104216428688263585}
   - component: {fileID: 3616648549393462344}
   - component: {fileID: 1945599738889112103}
+  - component: {fileID: 6373616163063672948}
   m_Layer: 0
   m_Name: Coin (16)
   m_TagString: ScoringObject
@@ -5627,8 +6762,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5654,6 +6790,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6373616163063672948
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985260231506083090}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5018417289877187097
 GameObject:
   m_ObjectHideFlags: 0
@@ -5665,6 +6820,7 @@ GameObject:
   - component: {fileID: 7561147596540674999}
   - component: {fileID: 5197939691410845603}
   - component: {fileID: 1890882095665479028}
+  - component: {fileID: 9166211467176938433}
   m_Layer: 0
   m_Name: Coin (22)
   m_TagString: ScoringObject
@@ -5725,8 +6881,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5752,6 +6909,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &9166211467176938433
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5018417289877187097}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5029868178191001360
 GameObject:
   m_ObjectHideFlags: 0
@@ -5764,6 +6940,7 @@ GameObject:
   - component: {fileID: 3174589092187090507}
   - component: {fileID: 266419692591546637}
   - component: {fileID: 6771284591671297271}
+  - component: {fileID: 1208127634454141805}
   m_Layer: 0
   m_Name: Coin (21)
   m_TagString: ScoringObject
@@ -5826,8 +7003,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5854,6 +7032,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1208127634454141805
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5029868178191001360}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5071245280039337326
 GameObject:
   m_ObjectHideFlags: 0
@@ -5865,6 +7062,7 @@ GameObject:
   - component: {fileID: 610838205972203392}
   - component: {fileID: 7630181261034400945}
   - component: {fileID: 7710024119943840014}
+  - component: {fileID: 5185727491722530886}
   m_Layer: 0
   m_Name: Coin (4)
   m_TagString: ScoringObject
@@ -5925,8 +7123,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5952,6 +7151,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &5185727491722530886
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5071245280039337326}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5135509295487405796
 GameObject:
   m_ObjectHideFlags: 0
@@ -5963,6 +7181,7 @@ GameObject:
   - component: {fileID: 1240226374900639358}
   - component: {fileID: 5031184538582873246}
   - component: {fileID: 6190116158064795405}
+  - component: {fileID: 8113891020006794933}
   m_Layer: 0
   m_Name: Coin (20)
   m_TagString: ScoringObject
@@ -6023,8 +7242,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6050,6 +7270,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &8113891020006794933
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5135509295487405796}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5387433282557876770
 GameObject:
   m_ObjectHideFlags: 0
@@ -6061,6 +7300,7 @@ GameObject:
   - component: {fileID: 5414969055591214043}
   - component: {fileID: 9115812762766762256}
   - component: {fileID: 2180431935347552938}
+  - component: {fileID: 5782498711851537768}
   m_Layer: 0
   m_Name: Coin (15)
   m_TagString: ScoringObject
@@ -6121,8 +7361,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6148,6 +7389,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &5782498711851537768
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387433282557876770}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5404222093001181990
 GameObject:
   m_ObjectHideFlags: 0
@@ -6160,6 +7420,7 @@ GameObject:
   - component: {fileID: 4437768434234044741}
   - component: {fileID: 6522530438443704557}
   - component: {fileID: 3562444682582572002}
+  - component: {fileID: 5621574005951220388}
   m_Layer: 0
   m_Name: Coin (18)
   m_TagString: ScoringObject
@@ -6222,8 +7483,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6250,6 +7512,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &5621574005951220388
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5404222093001181990}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5605897203527608543
 GameObject:
   m_ObjectHideFlags: 0
@@ -6262,6 +7543,7 @@ GameObject:
   - component: {fileID: 7886392102946769345}
   - component: {fileID: 4888714192557990812}
   - component: {fileID: 7666553786393314816}
+  - component: {fileID: 7264069018254909663}
   m_Layer: 0
   m_Name: Coin (14)
   m_TagString: ScoringObject
@@ -6324,8 +7606,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6352,6 +7635,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7264069018254909663
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5605897203527608543}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5621410775790802289
 GameObject:
   m_ObjectHideFlags: 0
@@ -6364,6 +7666,7 @@ GameObject:
   - component: {fileID: 989044162910710802}
   - component: {fileID: 6429661591992029869}
   - component: {fileID: 3675223680153090553}
+  - component: {fileID: 738557278682099630}
   m_Layer: 0
   m_Name: Coin (12)
   m_TagString: ScoringObject
@@ -6426,8 +7729,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6454,6 +7758,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &738557278682099630
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5621410775790802289}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5830802907276980464
 GameObject:
   m_ObjectHideFlags: 0
@@ -6526,6 +7849,7 @@ GameObject:
   - component: {fileID: 8520194531318281270}
   - component: {fileID: 5646179039682858928}
   - component: {fileID: 7410211558171711182}
+  - component: {fileID: 5972168381104507529}
   m_Layer: 0
   m_Name: Coin (15)
   m_TagString: ScoringObject
@@ -6588,8 +7912,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6616,6 +7941,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &5972168381104507529
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5835198994706278705}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5924290889968725774
 GameObject:
   m_ObjectHideFlags: 0
@@ -6627,6 +7971,7 @@ GameObject:
   - component: {fileID: 6792083594148538982}
   - component: {fileID: 1287216214833988153}
   - component: {fileID: 2225761723643174814}
+  - component: {fileID: 4200050021020923379}
   m_Layer: 0
   m_Name: Coin (17)
   m_TagString: ScoringObject
@@ -6687,8 +8032,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6714,6 +8060,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4200050021020923379
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5924290889968725774}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6038208962400283908
 GameObject:
   m_ObjectHideFlags: 0
@@ -6726,6 +8091,7 @@ GameObject:
   - component: {fileID: 2338542909142210463}
   - component: {fileID: 912413240764353886}
   - component: {fileID: 2416570441940618050}
+  - component: {fileID: 1495614834296716717}
   m_Layer: 0
   m_Name: Coin (10)
   m_TagString: ScoringObject
@@ -6788,8 +8154,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6816,6 +8183,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1495614834296716717
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038208962400283908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6108509083998493231
 GameObject:
   m_ObjectHideFlags: 0
@@ -6827,6 +8213,7 @@ GameObject:
   - component: {fileID: 2595657446463191699}
   - component: {fileID: 1005222147393723588}
   - component: {fileID: 2218909732069460557}
+  - component: {fileID: 7688187928655191187}
   m_Layer: 0
   m_Name: Coin (27)
   m_TagString: ScoringObject
@@ -6887,8 +8274,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6914,6 +8302,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7688187928655191187
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108509083998493231}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6196025514046825167
 GameObject:
   m_ObjectHideFlags: 0
@@ -6926,6 +8333,7 @@ GameObject:
   - component: {fileID: 2589573144612484997}
   - component: {fileID: 4389705347750990409}
   - component: {fileID: 3611635242291345991}
+  - component: {fileID: 8075482043852514313}
   m_Layer: 0
   m_Name: Coin (15)
   m_TagString: ScoringObject
@@ -6988,8 +8396,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7016,6 +8425,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &8075482043852514313
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6196025514046825167}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6429620386054278122
 GameObject:
   m_ObjectHideFlags: 0
@@ -7027,6 +8455,7 @@ GameObject:
   - component: {fileID: 2405041439384971410}
   - component: {fileID: 6149856416053642185}
   - component: {fileID: 1776998905037383337}
+  - component: {fileID: 301210441664914293}
   m_Layer: 0
   m_Name: Coin (23)
   m_TagString: ScoringObject
@@ -7087,8 +8516,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7114,6 +8544,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &301210441664914293
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6429620386054278122}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6508048122726532658
 GameObject:
   m_ObjectHideFlags: 0
@@ -7126,6 +8575,7 @@ GameObject:
   - component: {fileID: 921589203702266832}
   - component: {fileID: 2943890272178306405}
   - component: {fileID: 4025749242699625483}
+  - component: {fileID: 1367989162614580634}
   m_Layer: 0
   m_Name: Coin (28)
   m_TagString: ScoringObject
@@ -7188,8 +8638,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7216,6 +8667,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1367989162614580634
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6508048122726532658}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6702136648270266665
 GameObject:
   m_ObjectHideFlags: 0
@@ -7228,6 +8698,7 @@ GameObject:
   - component: {fileID: 7400511582960032557}
   - component: {fileID: 8185535634443404761}
   - component: {fileID: 1312788147285996229}
+  - component: {fileID: 7265171529879931964}
   m_Layer: 0
   m_Name: Coin (23)
   m_TagString: ScoringObject
@@ -7290,8 +8761,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7318,6 +8790,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7265171529879931964
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6702136648270266665}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6736560442901000741
 GameObject:
   m_ObjectHideFlags: 0
@@ -7329,6 +8820,7 @@ GameObject:
   - component: {fileID: 7515869097756315197}
   - component: {fileID: 1387422954485144388}
   - component: {fileID: 459258797523719073}
+  - component: {fileID: 7475010503076405353}
   m_Layer: 0
   m_Name: Coin (10)
   m_TagString: ScoringObject
@@ -7389,8 +8881,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7416,6 +8909,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7475010503076405353
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6736560442901000741}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6980274306793722688
 GameObject:
   m_ObjectHideFlags: 0
@@ -7427,6 +8939,7 @@ GameObject:
   - component: {fileID: 8880155038255487541}
   - component: {fileID: 6487308729997981496}
   - component: {fileID: 3593006339073578118}
+  - component: {fileID: 5006245294760551223}
   m_Layer: 0
   m_Name: Coin (12)
   m_TagString: ScoringObject
@@ -7487,8 +9000,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7514,6 +9028,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &5006245294760551223
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6980274306793722688}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7065436549869395130
 GameObject:
   m_ObjectHideFlags: 0
@@ -7526,6 +9059,7 @@ GameObject:
   - component: {fileID: 1558571355482701629}
   - component: {fileID: 7631709743557813528}
   - component: {fileID: 6474047607773458222}
+  - component: {fileID: 3725311010180412998}
   m_Layer: 0
   m_Name: Coin (8)
   m_TagString: ScoringObject
@@ -7588,8 +9122,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7616,6 +9151,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &3725311010180412998
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7065436549869395130}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7079237735125836593
 GameObject:
   m_ObjectHideFlags: 0
@@ -7690,6 +9244,7 @@ GameObject:
   - component: {fileID: 3719843106503402674}
   - component: {fileID: 4600981065500396120}
   - component: {fileID: 2661501932149824124}
+  - component: {fileID: 4895607515080877850}
   m_Layer: 0
   m_Name: Coin (4)
   m_TagString: ScoringObject
@@ -7752,8 +9307,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7780,6 +9336,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4895607515080877850
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7220264187226262721}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7311754489634024374
 GameObject:
   m_ObjectHideFlags: 0
@@ -7792,6 +9367,7 @@ GameObject:
   - component: {fileID: 3819261812540519606}
   - component: {fileID: 4172463050595631320}
   - component: {fileID: 139975741821733694}
+  - component: {fileID: 42153915653155375}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: ScoringObject
@@ -7854,8 +9430,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7882,6 +9459,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &42153915653155375
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7311754489634024374}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7355587855665917269
 GameObject:
   m_ObjectHideFlags: 0
@@ -7894,6 +9490,7 @@ GameObject:
   - component: {fileID: 495688826212750600}
   - component: {fileID: 3547660765340225436}
   - component: {fileID: 8902658362853781552}
+  - component: {fileID: 3169979532371439392}
   m_Layer: 0
   m_Name: Coin (8)
   m_TagString: ScoringObject
@@ -7956,8 +9553,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7984,6 +9582,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &3169979532371439392
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355587855665917269}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7428343474253358590
 GameObject:
   m_ObjectHideFlags: 0
@@ -7996,6 +9613,7 @@ GameObject:
   - component: {fileID: 5315071852581632855}
   - component: {fileID: 5850601158631965836}
   - component: {fileID: 6363188826489952859}
+  - component: {fileID: 2728204919161580086}
   m_Layer: 0
   m_Name: Coin (22)
   m_TagString: ScoringObject
@@ -8058,8 +9676,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8086,6 +9705,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2728204919161580086
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428343474253358590}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7530834714968924295
 GameObject:
   m_ObjectHideFlags: 0
@@ -8098,6 +9736,7 @@ GameObject:
   - component: {fileID: 7790886384469111233}
   - component: {fileID: 8681286124801358636}
   - component: {fileID: 3784289051340909311}
+  - component: {fileID: 4217476070026506520}
   m_Layer: 0
   m_Name: Coin (17)
   m_TagString: ScoringObject
@@ -8160,8 +9799,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8188,6 +9828,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4217476070026506520
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7530834714968924295}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7774009426228827231
 GameObject:
   m_ObjectHideFlags: 0
@@ -8199,6 +9858,7 @@ GameObject:
   - component: {fileID: 5767997835977431737}
   - component: {fileID: 4869667502485304907}
   - component: {fileID: 5404870978151011215}
+  - component: {fileID: 2080710975442038214}
   m_Layer: 0
   m_Name: Coin (18)
   m_TagString: ScoringObject
@@ -8259,8 +9919,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8286,6 +9947,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2080710975442038214
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7774009426228827231}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7848229182273964783
 GameObject:
   m_ObjectHideFlags: 0
@@ -8297,6 +9977,7 @@ GameObject:
   - component: {fileID: 4828456306406088169}
   - component: {fileID: 1481920454500022914}
   - component: {fileID: 1220894291057197057}
+  - component: {fileID: 7426554763039706097}
   m_Layer: 0
   m_Name: Coin (6)
   m_TagString: ScoringObject
@@ -8357,8 +10038,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8384,6 +10066,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7426554763039706097
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7848229182273964783}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7990550234249907762
 GameObject:
   m_ObjectHideFlags: 0
@@ -8396,6 +10097,7 @@ GameObject:
   - component: {fileID: 8986291944197557077}
   - component: {fileID: 2515974007560360886}
   - component: {fileID: 5324313277474372605}
+  - component: {fileID: 4929653218856713824}
   m_Layer: 0
   m_Name: Coin (11)
   m_TagString: ScoringObject
@@ -8458,8 +10160,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8486,6 +10189,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4929653218856713824
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7990550234249907762}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7991076580463391301
 GameObject:
   m_ObjectHideFlags: 0
@@ -8498,6 +10220,7 @@ GameObject:
   - component: {fileID: 6072010691925325664}
   - component: {fileID: 8224614453187302367}
   - component: {fileID: 331313910385871355}
+  - component: {fileID: 3850843905223560419}
   m_Layer: 0
   m_Name: Coin (12)
   m_TagString: ScoringObject
@@ -8560,8 +10283,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8588,6 +10312,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &3850843905223560419
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7991076580463391301}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8229116929180955510
 GameObject:
   m_ObjectHideFlags: 0
@@ -8599,6 +10342,7 @@ GameObject:
   - component: {fileID: 328894919147904287}
   - component: {fileID: 6336602528768924582}
   - component: {fileID: 6722539204817500761}
+  - component: {fileID: 4673838449034443577}
   m_Layer: 0
   m_Name: Coin (11)
   m_TagString: ScoringObject
@@ -8659,8 +10403,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8686,6 +10431,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &4673838449034443577
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8229116929180955510}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8296281596916120282
 GameObject:
   m_ObjectHideFlags: 0
@@ -8698,6 +10462,7 @@ GameObject:
   - component: {fileID: 1641236216521299735}
   - component: {fileID: 5728774334779285415}
   - component: {fileID: 1639104828174697031}
+  - component: {fileID: 1807129410925963494}
   m_Layer: 0
   m_Name: Coin (25)
   m_TagString: ScoringObject
@@ -8760,8 +10525,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8788,6 +10554,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1807129410925963494
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296281596916120282}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8381676255790371591
 GameObject:
   m_ObjectHideFlags: 0
@@ -8800,6 +10585,7 @@ GameObject:
   - component: {fileID: 2657227346136326452}
   - component: {fileID: 3193528456608985488}
   - component: {fileID: 3634533538398982852}
+  - component: {fileID: 2715144034220064312}
   m_Layer: 0
   m_Name: Coin (21)
   m_TagString: ScoringObject
@@ -8862,8 +10648,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8890,6 +10677,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2715144034220064312
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8381676255790371591}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8497153662857450686
 GameObject:
   m_ObjectHideFlags: 0
@@ -8901,6 +10707,7 @@ GameObject:
   - component: {fileID: 8559553208397837289}
   - component: {fileID: 5547292427669024471}
   - component: {fileID: 4881126172378974465}
+  - component: {fileID: 7363070505756919058}
   m_Layer: 0
   m_Name: Coin (19)
   m_TagString: ScoringObject
@@ -8961,8 +10768,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8988,6 +10796,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &7363070505756919058
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8497153662857450686}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8679902350809395175
 GameObject:
   m_ObjectHideFlags: 0
@@ -9000,6 +10827,7 @@ GameObject:
   - component: {fileID: 4673742596696214810}
   - component: {fileID: 6790862483456445445}
   - component: {fileID: 6867073310184648804}
+  - component: {fileID: 2002536218609171347}
   m_Layer: 0
   m_Name: Coin
   m_TagString: ScoringObject
@@ -9062,8 +10890,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9090,6 +10919,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &2002536218609171347
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8679902350809395175}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8853614498139529775
 GameObject:
   m_ObjectHideFlags: 0
@@ -9101,6 +10949,7 @@ GameObject:
   - component: {fileID: 5190532435083343111}
   - component: {fileID: 5531726011808086866}
   - component: {fileID: 6040915344291873295}
+  - component: {fileID: 1656637106009814918}
   m_Layer: 0
   m_Name: Coin (8)
   m_TagString: ScoringObject
@@ -9161,8 +11010,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9188,6 +11038,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &1656637106009814918
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853614498139529775}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9038136979134282380
 GameObject:
   m_ObjectHideFlags: 0
@@ -9200,6 +11069,7 @@ GameObject:
   - component: {fileID: 185737659973472765}
   - component: {fileID: 9084839834922916454}
   - component: {fileID: 6742721795999934857}
+  - component: {fileID: 6732542673543819430}
   m_Layer: 0
   m_Name: Coin (24)
   m_TagString: ScoringObject
@@ -9262,8 +11132,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f45f954fb25e9543a899094137c0015, type: 3}
-  m_Color: {r: 1, g: 0.9742207, b: 0, a: 1}
+  m_Sprite: {fileID: -487759880153869218, guid: aebddafca047e8c40b0af1f12df86ab2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9290,6 +11161,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!95 &6732542673543819430
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9038136979134282380}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7aa244374f25ed4597a837569dda217, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &3212784491477989157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9297,10 +11187,295 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7939115570400187135}
     m_Modifications:
+    - target: {fileID: 673609485163680229, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 673609485163680229, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 673609485163680229, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471709702046230081, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471709702046230081, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471709702046230081, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2797266654695361798, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2797266654695361798, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2797266654695361798, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902306120640819712, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902306120640819712, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902306120640819712, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238395147089350895, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238395147089350895, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238395147089350895, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383791820123205127, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383791820123205127, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383791820123205127, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572113839519533849, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572113839519533849, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572113839519533849, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766985101864885925, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766985101864885925, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766985101864885925, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910759386876778637, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910759386876778637, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910759386876778637, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957716124344969750, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957716124344969750, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957716124344969750, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5111886906175765411, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5111886906175765411, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5111886906175765411, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5147011489368548196, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5147011489368548196, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5147011489368548196, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368021930059188763, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368021930059188763, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368021930059188763, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839465045390462499, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839465045390462499, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839465045390462499, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297997880889487291, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297997880889487291, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297997880889487291, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6727463291920207187, guid: 431119a90b66b0d4d845733670eea82a,
         type: 3}
       propertyPath: m_Name
       value: pfCoins1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213977516943036645, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213977516943036645, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213977516943036645, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235553617729670436, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235553617729670436, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235553617729670436, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272125304473583424, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272125304473583424, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272125304473583424, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441720223717394059, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441720223717394059, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441720223717394059, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7704574227602301655, guid: 431119a90b66b0d4d845733670eea82a,
         type: 3}
@@ -9357,6 +11532,171 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7712493707109195218, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712493707109195218, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712493707109195218, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761499611066088246, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761499611066088246, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761499611066088246, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991214333521444459, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991214333521444459, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991214333521444459, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234122550213116842, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234122550213116842, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234122550213116842, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299742368236277795, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299742368236277795, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299742368236277795, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559295896727417706, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559295896727417706, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559295896727417706, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796307534460848368, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796307534460848368, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796307534460848368, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804605620832794538, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804605620832794538, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804605620832794538, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831675041074880315, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831675041074880315, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831675041074880315, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139051008213399135, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139051008213399135, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139051008213399135, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153126026551107665, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153126026551107665, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153126026551107665, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 431119a90b66b0d4d845733670eea82a, type: 3}
 --- !u!1001 &4767541177652416120
@@ -9366,10 +11706,295 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7939115570400187135}
     m_Modifications:
+    - target: {fileID: 673609485163680229, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 673609485163680229, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 673609485163680229, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471709702046230081, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471709702046230081, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471709702046230081, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2797266654695361798, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2797266654695361798, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2797266654695361798, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902306120640819712, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902306120640819712, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902306120640819712, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238395147089350895, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238395147089350895, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238395147089350895, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383791820123205127, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383791820123205127, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383791820123205127, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572113839519533849, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572113839519533849, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572113839519533849, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766985101864885925, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766985101864885925, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766985101864885925, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910759386876778637, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910759386876778637, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910759386876778637, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957716124344969750, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957716124344969750, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957716124344969750, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5111886906175765411, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5111886906175765411, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5111886906175765411, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5147011489368548196, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5147011489368548196, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5147011489368548196, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368021930059188763, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368021930059188763, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368021930059188763, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839465045390462499, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839465045390462499, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839465045390462499, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297997880889487291, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297997880889487291, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297997880889487291, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6727463291920207187, guid: 431119a90b66b0d4d845733670eea82a,
         type: 3}
       propertyPath: m_Name
       value: pfCoins1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213977516943036645, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213977516943036645, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213977516943036645, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235553617729670436, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235553617729670436, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235553617729670436, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272125304473583424, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272125304473583424, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272125304473583424, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441720223717394059, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441720223717394059, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441720223717394059, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7704574227602301655, guid: 431119a90b66b0d4d845733670eea82a,
         type: 3}
@@ -9425,6 +12050,171 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712493707109195218, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712493707109195218, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712493707109195218, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761499611066088246, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761499611066088246, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761499611066088246, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991214333521444459, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991214333521444459, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991214333521444459, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234122550213116842, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234122550213116842, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234122550213116842, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299742368236277795, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299742368236277795, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299742368236277795, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559295896727417706, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559295896727417706, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559295896727417706, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796307534460848368, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796307534460848368, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796307534460848368, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804605620832794538, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804605620832794538, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804605620832794538, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831675041074880315, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831675041074880315, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831675041074880315, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139051008213399135, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139051008213399135, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139051008213399135, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153126026551107665, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153126026551107665, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153126026551107665, guid: 431119a90b66b0d4d845733670eea82a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 431119a90b66b0d4d845733670eea82a, type: 3}

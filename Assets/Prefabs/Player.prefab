@@ -4909,6 +4909,7 @@ MonoBehaviour:
   ps: {fileID: 91490903334292084}
   particlesPerSecond: 22
   textDistance: {fileID: 0}
+  dynamicParallax: {fileID: 0}
   debugMode: 0
 --- !u!114 &8679348020989027017
 MonoBehaviour:

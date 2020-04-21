@@ -30,7 +30,7 @@ public class PlayerCollector : MonoBehaviour
         int intText = int.Parse(textCoins.text);
         if (score != intText)
         {
-            intText += 2;
+            intText += 5;
             textCoins.text = intText.ToString();
             timerAccumulator = 0;
         }

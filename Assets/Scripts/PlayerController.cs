@@ -14,15 +14,19 @@ public class PlayerController : MonoBehaviour
     [SerializeField] int speedIncrement;
     [SerializeField] int incrementInterval;
     [SerializeField] ParticleSystem ps;
+    [SerializeField] GameObject stepObject;
     [SerializeField] int particlesPerSecond;
     [SerializeField] Text textDistance;
     [SerializeField] DynamicParallaxController dynamicParallax;
     [SerializeField] bool debugMode;
+
     private Vector2 iniPos;
     private int distance;
     private int speed;
+    private bool floorDetected;
 
     public int Distance { get => distance; }
+    public bool FloorDetected { get => floorDetected; }
 
     // Start is called before the first frame update
     void Start()
@@ -43,11 +47,18 @@ public class PlayerController : MonoBehaviour
         if (Input.touchCount == 0)
         {
             changeEmissionOverTime(0);
+            if (transform.position.y < iniPos.y)
+            {
+                floorDetected = true;
+            }
+            else
+                floorDetected = false;
         }
         else
         {
             changeEmissionOverTime(particlesPerSecond);
             rBody.AddForce(new Vector3(0, impulseUp, 0));
+            floorDetected = false;
         }
 
         if (distance > incrementInterval)
@@ -62,11 +73,21 @@ public class PlayerController : MonoBehaviour
 
     }
 
+ 
 
     private void changeEmissionOverTime(float value)
     {
      
         var emission = ps.emission;
         emission.rateOverTime = value;
+    }
+
+    public void createStep()
+    {
+        if (floorDetected)
+        {
+            Instantiate(stepObject,new Vector3(transform.position.x,-7.8f,0),Quaternion.identity);
+        }
+            
     }
 }

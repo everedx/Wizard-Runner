@@ -1480,7 +1480,16 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: fbafd5da2da44a14e8e2eb27751fdf39, type: 3}
+    - sprite: {fileID: -3941884689759220378, guid: 4aa067ad700c0f54387ab0ccd7264ede,
+        type: 3}
+    - sprite: {fileID: 4754695789457461179, guid: 4aa067ad700c0f54387ab0ccd7264ede,
+        type: 3}
+    - sprite: {fileID: -1996043704645482755, guid: 4aa067ad700c0f54387ab0ccd7264ede,
+        type: 3}
+    - sprite: {fileID: 160702806655752476, guid: 4aa067ad700c0f54387ab0ccd7264ede,
+        type: 3}
+    - sprite: {fileID: -3238509877613280393, guid: 4aa067ad700c0f54387ab0ccd7264ede,
+        type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -4767,6 +4776,7 @@ GameObject:
   - component: {fileID: 7212354639185841529}
   - component: {fileID: 7212354639185841530}
   - component: {fileID: 7212354639185841531}
+  - component: {fileID: 8603730800701018224}
   m_Layer: 0
   m_Name: ProjectileLine
   m_TagString: Projectile
@@ -4829,7 +4839,8 @@ SpriteRenderer:
   m_SortingLayerID: 955657321
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fbafd5da2da44a14e8e2eb27751fdf39, type: 3}
+  m_Sprite: {fileID: -3941884689759220378, guid: 4aa067ad700c0f54387ab0ccd7264ede,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4881,6 +4892,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.9142857
+--- !u!95 &8603730800701018224
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7212354639185841526}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b85d4fa0b25681240a467ddb4cc866e0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7212354639439350118
 GameObject:
   m_ObjectHideFlags: 0
@@ -4927,10 +4957,10 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.73
-  m_Color: {r: 0, g: 0.6226415, b: 0.08147358, a: 1}
+  m_Color: {r: 0.18614274, g: 0.34285077, b: 0.8396226, a: 1}
   m_Intensity: 2
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 00000000d9209645cd081bb1f5a1c1e1
+  m_ApplyToSortingLayers: 00000000d9209645cd081bb1f5a1c1e1692cf638
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0

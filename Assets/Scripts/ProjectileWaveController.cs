@@ -28,10 +28,7 @@ public class ProjectileWaveController : MonoBehaviour
         sinFactor = Mathf.Sin(Time.time * frequency);
         transform.position = pos + axis * sinFactor * magnitude;
         //transform.eulerAngles = new Vector3(0, 0, transform.eulerAngles.z + 10f);
-        dir = pos.normalized + axis.normalized * sinFactor;
-        newRotation = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        Debug.Log(newRotation);
-        transform.eulerAngles = new Vector3(0, 0, newRotation);
+       
     }
 
 

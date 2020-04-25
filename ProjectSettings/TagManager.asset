@@ -42,26 +42,26 @@ TagManager:
   - 
   m_SortingLayers:
   - name: BackBack
-    uniqueID: 1597434595
+    uniqueID: 3397078397
     locked: 0
   - name: Background
-    uniqueID: 3094199017
+    uniqueID: 1952476571
     locked: 0
-  - name: Parallax01
-    uniqueID: 3627427871
+  - name: P1
+    uniqueID: 3567246435
     locked: 0
-  - name: Parallax02
-    uniqueID: 3787563509
+  - name: P2
+    uniqueID: 3820679851
     locked: 0
-  - name: Parallax03
-    uniqueID: 2971338957
+  - name: P3
+    uniqueID: 1603882077
     locked: 0
-  - name: Parallax04
-    uniqueID: 1167466713
+  - name: P4
+    uniqueID: 825958637
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Proyectiles
-    uniqueID: 955657321
+  - name: Projectiles
+    uniqueID: 221243481
     locked: 0

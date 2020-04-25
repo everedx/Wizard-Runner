@@ -49,9 +49,9 @@ public class DynamicParallaxController : MonoBehaviour
                 animationMaterial.SetFloat("_Fade", 1);
             else if (hasToGoDown && animationMaterial.GetFloat("_Fade") > 0.15f)
             {
-                Debug.Log(animationMaterial.GetFloat("_Fade"));
+                //Debug.Log(animationMaterial.GetFloat("_Fade"));
                 animationMaterial.SetFloat("_Fade", animationMaterial.GetFloat("_Fade") - Time.deltaTime/2 );
-                Debug.Log(animationMaterial.GetFloat("_Fade"));
+                //Debug.Log(animationMaterial.GetFloat("_Fade"));
                 if (animationMaterial.GetFloat("_Fade") <= 0.15f)
                 {
                     changingScenario = true;

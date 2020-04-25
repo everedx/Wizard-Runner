@@ -20,7 +20,7 @@ public class DynamicObstacle : MonoBehaviour
     void Update()
     {
 
-        transform.rotation = Quaternion.Euler(0, 0, transform.eulerAngles.z + rotationSpeed*0.1f); ;
+        transform.rotation = Quaternion.Euler(0, 0, transform.eulerAngles.z + rotationSpeed*Time.deltaTime*4); ;
 
     }
 }

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: New 2D Renderer Data
   m_EditorClassIdentifier: 
   m_RendererFeatures: []
+  m_RendererFeatureMap: 
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 1, z: 0}
   m_HDREmulationScale: 1

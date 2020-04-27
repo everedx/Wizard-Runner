@@ -4,7 +4,7 @@ using System.Timers;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace everedxCode
+namespace Core.Utils
 {
     public static class Utils
     {

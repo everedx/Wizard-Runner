@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using everedxCode;
+using Core.Utils;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject stepObject;
     [SerializeField] int particlesPerSecond;
     [SerializeField] Text textDistance;
+    [SerializeField] Text bestMarkText;
     [SerializeField] DynamicParallaxController dynamicParallax;
     [SerializeField] bool debugMode;
 
@@ -38,6 +39,12 @@ public class PlayerController : MonoBehaviour
         iniPos = transform.position;
         animator = GetComponent<Animator>();
         animator.SetBool("Pressing",false);
+        if (GameManager.instanceExists)
+        {
+           bestMarkText.text= "Best : "+ GameManager.instance.getBestMark();
+        }
+        else
+            bestMarkText.gameObject.SetActive(false);
     }
 
     // Update is called once per frame

@@ -54,6 +54,19 @@ public class PlayerHealth : MonoBehaviour
 
         if (getHealth() <= 0)
         {
+            bool markBeated = false;
+            if (GameManager.instanceExists)
+            {
+                markBeated= GameManager.instance.registerMark(GetComponent<PlayerController>().Distance);
+            }
+
+            if (markBeated)
+            {
+                //SHOW REWARD
+                Debug.Log(markBeated);
+                
+            }
+
            // Debug.Log("Game Over");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }

@@ -3,38 +3,71 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class MenuController
+public class MenuController: MonoBehaviour
 {
 
-    private static MenuController instance= null;
+    protected IMenuPage m_currentPage;
 
-    public static MenuController Instance
+    protected Stack<IMenuPage> m_pageStack = new Stack<IMenuPage>();
+
+    protected virtual void ChangePage(IMenuPage newPage)
     {
-        get
+        DeactivateCurrentPage();
+        ActivateCurrentPage(newPage);
+    }
+
+    protected void DeactivateCurrentPage()
+    {
+        if (m_currentPage != null)
         {
-            if (instance == null)
-            {
-                instance = new MenuController();
-            }
-            return instance;
+            m_currentPage.hide();
         }
     }
-    
-    private Stack<IMenuPage> menuPages;
 
-    private MenuController()
+    protected void ActivateCurrentPage(IMenuPage newPage)
     {
-        
+        m_currentPage = newPage;
+        m_currentPage.show();
+        m_pageStack.Push(m_currentPage);
     }
 
-    public void addPageToList(IMenuPage page)
+    protected void SafeBack(IMenuPage backPage)
     {
-        menuPages.Push(page);
+        DeactivateCurrentPage();
+        ActivateCurrentPage(backPage);
     }
 
-    public void removePageFromList()
+    public virtual void Back()
     {
-        menuPages.Pop();
+        if (m_pageStack.Count == 0)
+        {
+            return;
+        }
+
+        DeactivateCurrentPage();
+        m_pageStack.Pop();
+        ActivateCurrentPage(m_pageStack.Pop());
     }
 
+    public virtual void Back(IMenuPage backPage)
+    {
+        int count = m_pageStack.Count;
+        if (count == 0)
+        {
+            SafeBack(backPage);
+            return;
+        }
+
+        for (int i = count - 1; i >= 0; i--)
+        {
+            IMenuPage currentPage = m_pageStack.Pop();
+            if (currentPage == backPage)
+            {
+                SafeBack(backPage);
+                return;
+            }
+        }
+
+        SafeBack(backPage);
+    }
 }

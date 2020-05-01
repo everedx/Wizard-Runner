@@ -67,8 +67,9 @@ public class PlayerHealth : MonoBehaviour
                 
             }
 
-           // Debug.Log("Game Over");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            // Debug.Log("Game Over");
+            GetComponent<PlayerController>().disableMovement();
+            StartCoroutine("delayLevelLoad");
         }
     }
 
@@ -86,6 +87,13 @@ public class PlayerHealth : MonoBehaviour
 
 
         }
+    }
+
+
+    IEnumerator delayLevelLoad()
+    {
+        yield return new WaitForSeconds(2f);
+        GameObject.Find("LevelChanger").GetComponent<LevelChanger>().changeLevel(SceneManager.GetActiveScene().name);
     }
 
 }

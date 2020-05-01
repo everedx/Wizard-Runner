@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class ButtonTemp : MonoBehaviour
 {
+    [SerializeField] LevelChanger levelChanger;
     public void backToMenu()
     {
-        SceneManager.LoadScene("MainMenu");   
+        levelChanger.changeLevel("MainMenu");
     }
 }

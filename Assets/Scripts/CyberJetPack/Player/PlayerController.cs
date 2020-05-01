@@ -27,13 +27,14 @@ public class PlayerController : MonoBehaviour
     private int speed;
     private bool floorDetected;
     bool touching;
+    private bool movementEnabled;
     public int Distance { get => distance; }
     public bool FloorDetected { get => floorDetected; }
 
     // Start is called before the first frame update
     void Start()
     {
-
+        movementEnabled = true;
         rBody = GetComponent<Rigidbody2D>();
         speed = initialSpeed;
         iniPos = transform.position;
@@ -52,33 +53,41 @@ public class PlayerController : MonoBehaviour
     {
         distance = (int)transform.position.x - (int)iniPos.x;
         textDistance.text = distance.ToString() + " m";
-        rBody.velocity = new Vector3(speed,rBody.velocity.y,0);
-        if (Application.isMobilePlatform)
-            touching = Input.touchCount > 0;
-        else
-            touching = Input.GetMouseButton(0);
-        if (!touching)
+        if (movementEnabled)
         {
-            animator.SetBool("Pressing", false);
-            changeEmissionOverTime(0);
-            if (transform.position.y < iniPos.y)
+            rBody.velocity = new Vector3(speed, rBody.velocity.y, 0);
+            if (Application.isMobilePlatform)
+                touching = Input.touchCount > 0;
+            else
+                touching = Input.GetMouseButton(0);
+            if (!touching)
             {
-                floorDetected = true;
-                animator.SetBool("InFloor", true);
+                animator.SetBool("Pressing", false);
+                changeEmissionOverTime(0);
+                if (transform.position.y < iniPos.y)
+                {
+                    floorDetected = true;
+                    animator.SetBool("InFloor", true);
+                }
+                else
+                {
+                    animator.SetBool("InFloor", false);
+                    floorDetected = false;
+                }
             }
             else
             {
-                animator.SetBool("InFloor", false);
+                animator.SetBool("Pressing", true);
+                changeEmissionOverTime(particlesPerSecond);
+                rBody.AddForce(new Vector3(0, impulseUp, 0));
                 floorDetected = false;
             }
         }
         else
         {
-            animator.SetBool("Pressing", true);
-            changeEmissionOverTime(particlesPerSecond);
-            rBody.AddForce(new Vector3(0, impulseUp, 0));
-            floorDetected = false;
+            changeEmissionOverTime(0);
         }
+       
 
         if (distance > incrementInterval)
         {
@@ -108,5 +117,10 @@ public class PlayerController : MonoBehaviour
             Instantiate(stepObject,new Vector3(transform.position.x,-7.8f,0),Quaternion.identity);
         }
             
+    }
+
+    public void disableMovement()
+    {
+        movementEnabled = false;
     }
 }

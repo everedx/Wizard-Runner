@@ -29,6 +29,16 @@ public class GameManager : GameManagerBase<GameManager, GameDataStore>
         return m_DataStore.getBestMark();
     }
 
+    public string getLanguage()
+    {
+        return m_DataStore.getLanguage();
+    }
+    public void setLanguage(string lang)
+    {
+        m_DataStore.setLanguage(lang);
+        SaveData();
+    }
+
     public void buyItem(string item)
     {
        m_DataStore.itemsDictionary[item] = m_DataStore.itemsDictionary[item] + 1;

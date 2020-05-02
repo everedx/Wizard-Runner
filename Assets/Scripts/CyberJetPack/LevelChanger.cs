@@ -20,6 +20,7 @@ public class LevelChanger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        panelLoader.SetActive(true);
         matPanelLoader = new Material(dissolveShader);
         GetComponentInChildren<Image>().material = matPanelLoader;
         matPanelLoader.SetFloat("_Fade",1);
@@ -29,6 +30,7 @@ public class LevelChanger : MonoBehaviour
         isFadingOut = false;
         GameManager.instance.GetVolumes(out masterVolume, out sfx, out music);
         GameManager.instance.SetVolumes(masterVolume,sfx,music,false);
+       
     }
 
     // Update is called once per frame

@@ -6,11 +6,13 @@ using Core.Data;
 public class GameDataStore : GameDataStoreBase
 {
     public int bestMark = 0;
+    public string language;
 
     public Dictionary<string, int> itemsDictionary = new Dictionary<string, int>();
 
     public GameDataStore() : base()
     {
+        language = "English";
         itemsDictionary.Add("doubleCoin",0);
         itemsDictionary.Add("smallShield",0);
         itemsDictionary.Add("bigShield",0);
@@ -24,6 +26,15 @@ public class GameDataStore : GameDataStoreBase
     public int getBestMark()
     {
         return bestMark;
+    }
+
+    public void setLanguage(string language)
+    {
+        this.language = language;
+    }
+    public string getLanguage()
+    {
+        return language;
     }
 
     public override void preSave()

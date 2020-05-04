@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Data;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,6 +35,13 @@ public class LanguageSelector : MonoBehaviour
             button.GetComponent<Button>().onClick.AddListener(() => { childButtonClicked(button.transform.GetChild(0).GetComponent<Image>().sprite, button.name); });
         }
         panelLanguages.SetActive(false);
+        foreach (LanguageStruct st in pictures)
+        {
+            if (st.name.Equals(GameManager.instance.getLanguage()))
+            {
+                gameObject.transform.GetChild(0).GetComponent<Image>().sprite = st.image;
+            }
+        }
     }
 
     public void clickDone()
@@ -47,6 +55,8 @@ public class LanguageSelector : MonoBehaviour
         panelLanguages.SetActive(false);
         if(GameManager.instanceExists)
              GameManager.instance.setLanguage(name);
+        FindObjectOfType<LangResolver>().ReadProperties();
+        FindObjectOfType<LangResolver>().ResolveTexts();
     }
 
 }

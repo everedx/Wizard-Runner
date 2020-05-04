@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("Pressing",false);
         if (GameManager.instanceExists)
         {
-           bestMarkText.text= "Best : "+ GameManager.instance.getBestMark();
+           bestMarkText.text= bestMarkText.text.Split(':')[0] + ": "  + GameManager.instance.getBestMark();
         }
         else
             bestMarkText.gameObject.SetActive(false);

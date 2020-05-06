@@ -16,6 +16,8 @@ public class LanguageSelector : MonoBehaviour
 
     [SerializeField] GameObject buttonLanguagePf;
     [SerializeField] LanguageStruct[] pictures;
+ 
+
     private GameObject panelLanguages;
 
     private void Start()

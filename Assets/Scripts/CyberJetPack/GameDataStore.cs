@@ -2,24 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Core.Data;
+using System;
+
+
 
 public class GameDataStore : GameDataStoreBase
 {
     public int bestMark = 0;
+    public int money = 0;
     public string language;
 
-    public Dictionary<string, int> itemsDictionary = new Dictionary<string, int>();
+    public List<ShopItemQuantityClass> itemsList = new List<ShopItemQuantityClass>();
+
+
 
     public GameDataStore() : base()
     {
         language = "English";
-        itemsDictionary.Add("doubleCoin",0);
-        itemsDictionary.Add("smallShield",0);
-        itemsDictionary.Add("bigShield",0);
-        itemsDictionary.Add("halfSizedObstacles",0);
-        itemsDictionary.Add("onlyStaticObstacles",0);
-        itemsDictionary.Add("onlyStaticMissiles", 0);
-        itemsDictionary.Add("halfQuantityMissiles", 0);
+
+        itemsList.Add(new ShopItemQuantityClass("BasicShield", 0));
+        itemsList.Add(new ShopItemQuantityClass("AdvancedShield", 0));
+        itemsList.Add(new ShopItemQuantityClass("DoubleCoins", 0));
+        itemsList.Add(new ShopItemQuantityClass("NoDynamicObstacles", 0));
+        itemsList.Add(new ShopItemQuantityClass("NoWaveProjectiles", 0));
+        itemsList.Add(new ShopItemQuantityClass("LessProjectiles", 0));
+        itemsList.Add(new ShopItemQuantityClass("SmallerObstacles", 0));
     }
 
 
@@ -37,6 +44,21 @@ public class GameDataStore : GameDataStoreBase
         return language;
     }
 
+    public void addMoney(int money)
+    {
+        this.money += money;
+    }
+    public void spendMoney(int money)
+    {
+        this.money -= money;
+    }
+
+    public int getCurrentMoney()
+    {
+        return money;
+    }
+
+
     public override void preSave()
     {
         Debug.Log("[GAME] Saving Game");
@@ -46,5 +68,93 @@ public class GameDataStore : GameDataStoreBase
         Debug.Log("[GAME] Loaded Game");
     }
 
+    public void buyItem(string keyOfItem)
+    {
+        int index = itemsList.FindLastIndex(c => c.name == keyOfItem);
+        if (index != -1)
+        {
+            itemsList[index] = new ShopItemQuantityClass(keyOfItem,itemsList[index].quantity+1, itemsList[index].useNow);
+        }
+    }
 
+    public void useItem(string keyOfItem)
+    {
+        int index = itemsList.FindLastIndex(c => c.name == keyOfItem);
+        if (index != -1)
+        {
+            itemsList[index] = new ShopItemQuantityClass(keyOfItem, itemsList[index].quantity-1, false);
+        }
+    }
+
+    public void restartUsesStatusForAllItems()
+    {
+        ShopItemQuantityClass item;
+        for (int index = 0; index < itemsList.Count;index++)
+        {
+            item = itemsList[index];
+            itemsList[index] = new ShopItemQuantityClass(item.name, item.quantity,false);
+        }
+    }
+
+    public void useMarkedItems()
+    {
+        ShopItemQuantityClass item;
+        for (int index = 0; index < itemsList.Count; index++)
+        {
+            item = itemsList[index];
+            if(item.useNow)
+                itemsList[index] = new ShopItemQuantityClass(item.name, item.quantity-1, false);
+        }
+    }
+
+    public void markItemForUse(string key)
+    {
+        ShopItemQuantityClass item;
+        int index = itemsList.FindLastIndex(c => c.name == key);
+        if (index != -1)
+        {
+            item = itemsList[index];
+            itemsList[index] = new ShopItemQuantityClass(item.name, item.quantity, true);
+        }
+
+        
+    }
+
+
+    public List<ShopItemQuantityClass> getListOfMarkedItemsToUse()
+    {
+        List<ShopItemQuantityClass> listItemsToUse = new List<ShopItemQuantityClass>(); 
+        foreach (ShopItemQuantityClass item in itemsList)
+        {
+            if (item.useNow)
+            {
+                listItemsToUse.Add(item);
+            }
+        }
+
+        return listItemsToUse;
+    }
+
+
+
+}
+
+[Serializable]
+public class ShopItemQuantityClass
+{
+    public string name;
+    public int quantity;
+    public bool useNow;
+    public ShopItemQuantityClass(string name, int quantity)
+    {
+        this.name = name;
+        this.quantity = quantity;
+        useNow = false;
+    }
+    public ShopItemQuantityClass(string name, int quantity, bool useNow)
+    {
+        this.name = name;
+        this.quantity = quantity;
+        this.useNow = useNow;
+    }
 }

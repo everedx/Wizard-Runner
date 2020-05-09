@@ -69,6 +69,7 @@ public class PlayerHealth : MonoBehaviour
 
             // Debug.Log("Game Over");
             GetComponent<PlayerController>().disableMovement();
+            GameManager.instance.addMoney(GetComponent<PlayerCollector>().Score);
             StartCoroutine("delayLevelLoad");
         }
     }

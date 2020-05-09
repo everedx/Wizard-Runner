@@ -16,9 +16,9 @@ namespace Core.Data
         {
             DontDestroyOnLoad(gameObject);
             ReadProperties();
-            Debug.Log(_lang.Count);
-            Debug.Log(_lang.Keys.First());
-            Debug.Log(_lang.Values.First());
+            //Debug.Log(_lang.Count);
+            //Debug.Log(_lang.Keys.First());
+            //Debug.Log(_lang.Values.First());
         }
         public void ReadProperties()
         {
@@ -45,6 +45,20 @@ namespace Core.Data
                 var text = langText.GetComponent<Text>();
                 text.text = Regex.Unescape(_lang[langText.Identifier]);
             }
+
+            //Marquees
+            var allShopControls = Resources.FindObjectsOfTypeAll<ShopSelector>();
+            foreach (var shopSelector in allShopControls)
+            {
+                if(!string.IsNullOrEmpty(shopSelector.getSelectedItem().description))
+                    shopSelector.setTextMarquee(resolveText(shopSelector.getSelectedItem().description));
+            }
+        }
+
+        public string resolveText(string key)
+        {
+           
+            return Regex.Unescape(_lang[key]); ;
         }
     }
 }

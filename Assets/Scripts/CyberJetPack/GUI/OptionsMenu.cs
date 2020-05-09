@@ -21,9 +21,9 @@ public class OptionsMenu : SimpleMainMenuPage
         if (GameManager.instanceExists)
         {
             GameManager.instance.GetVolumes(out master, out sfx, out music);
-            masterValue.text = ((int)master * 100f).ToString();
-            musicValue.text = ((int)music * 100f).ToString();
-            sfxValue.text = ((int)sfx * 100f).ToString();
+            masterValue.text = ((float)master * 100f).ToString();
+            musicValue.text = ((float)music * 100f).ToString();
+            sfxValue.text = ((float)sfx * 100f).ToString();
         }
     }
 
@@ -65,6 +65,7 @@ public class OptionsMenu : SimpleMainMenuPage
                 break;
 
         }
+        GameManager.instance.SetVolumes(float.Parse(masterValue.text) / 100, float.Parse(sfxValue.text) / 100, float.Parse(musicValue.text) / 100, true);
     
     }
 
@@ -104,6 +105,7 @@ public class OptionsMenu : SimpleMainMenuPage
                 break;
 
         }
+        GameManager.instance.SetVolumes(float.Parse(masterValue.text)/100, float.Parse(sfxValue.text) / 100, float.Parse(musicValue.text) / 100, true);
 
     }
 }

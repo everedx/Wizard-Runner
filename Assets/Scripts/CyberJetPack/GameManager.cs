@@ -8,6 +8,7 @@ public class GameManager : GameManagerBase<GameManager, GameDataStore>
     {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         base.Awake();
+        m_DataStore.restartUsesStatusForAllItems();
     }
 
     public bool registerMark(int newMark)
@@ -41,11 +42,47 @@ public class GameManager : GameManagerBase<GameManager, GameDataStore>
 
     public void buyItem(string item)
     {
-       m_DataStore.itemsDictionary[item] = m_DataStore.itemsDictionary[item] + 1;
+       m_DataStore.buyItem(item);
+        SaveData();
     }
 
     public void sellItem(string item)
     {
-        m_DataStore.itemsDictionary[item] = m_DataStore.itemsDictionary[item] - 1;
+        m_DataStore.useItem(item);
+        SaveData();
     }
+
+    public void addMoney(int money)
+    {
+        m_DataStore.addMoney(money);
+        SaveData();
+    }
+    public void spendMoney(int money)
+    {
+        m_DataStore.spendMoney(money);
+        SaveData();
+    }
+
+    public int getCurrentMoney()
+    {
+        return m_DataStore.getCurrentMoney();
+    }
+
+    public void useMarkedItems()
+    {
+        m_DataStore.useMarkedItems();
+        SaveData();
+    }
+
+    public void markItemToUse(string key)
+    {
+        m_DataStore.markItemForUse(key);
+    }
+
+    public List<ShopItemQuantityClass> getListOfMarkedItemsToUse()
+    {
+
+        return m_DataStore.getListOfMarkedItemsToUse();
+    }
+
 }

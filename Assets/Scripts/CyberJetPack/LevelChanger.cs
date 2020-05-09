@@ -16,7 +16,7 @@ public class LevelChanger : MonoBehaviour
     [SerializeField] GameObject panelLoader;
     [SerializeField] private Shader dissolveShader;
     [SerializeField] AudioMixer gameMixer;
-    
+    [SerializeField] Animator triggerAnimator;
     // Start is called before the first frame update
     void Start()
     {
@@ -67,6 +67,7 @@ public class LevelChanger : MonoBehaviour
             }
             else
             {
+                triggerAnimator.SetTrigger("start");
                 panelLoader.SetActive(false);
                 isFadingIn = false;
             }

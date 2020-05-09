@@ -3,17 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using Core.Data;
 
 public class ShopSelector : MonoBehaviour
 {
 
-    [Serializable]
-    struct ShopItemStruct
-    {
-        public string name;
-        public Sprite image;
-        public int price;
-    }
+
    
     [SerializeField] ShopItemStruct[] items;
     [SerializeField] Image selectedItemImage;
@@ -59,7 +54,7 @@ public class ShopSelector : MonoBehaviour
             originalSizeNext = nextItemImage.rectTransform.sizeDelta;
             originalSizeSpare = SpareItemImage.rectTransform.sizeDelta;
             originalLocationSpare = SpareItemImage.rectTransform.position;
-            marquee.setTextToShow(selectedItem.name);
+            marquee.setTextToShow(FindObjectOfType<LangResolver>().resolveText(selectedItem.description));
             anim = GetComponent<Animator>();
         }
     }
@@ -81,7 +76,7 @@ public class ShopSelector : MonoBehaviour
             selectedItem = items[indexSelected];
 
             //updateVisuals(); DEBUG
-            Debug.Log(selectedItem.name);
+            //Debug.Log(selectedItem.name);
 
             //What to put in spare
             if (indexSelected == 0)
@@ -114,7 +109,7 @@ public class ShopSelector : MonoBehaviour
             }
             selectedItem = items[indexSelected];
             //updateVisuals(); DEBUG
-            Debug.Log(selectedItem.name);
+            //Debug.Log(selectedItem.name);
             //What to put in spare
             if (indexSelected == items.Length - 1)
             {
@@ -124,7 +119,8 @@ public class ShopSelector : MonoBehaviour
                 indexSelected++;
             SpareItemImage.sprite = items[indexSelected].image;
 
-            //Animation previous\
+            //Animation previous
+            prevItemImage.transform.SetSiblingIndex(1);
             anim.SetTrigger("Prev");
             animationInCourse = true;
         }
@@ -134,6 +130,10 @@ public class ShopSelector : MonoBehaviour
     public void nextAnimEnded()
     {
         animationInCourse = false;
+
+        //updateVisuals
+        updateVisuals();
+
         //repositionImages
         selectedItemImage.rectTransform.position = originalLocationSelected;
         prevItemImage.rectTransform.position = originalLocationPrev;
@@ -144,14 +144,16 @@ public class ShopSelector : MonoBehaviour
         SpareItemImage.rectTransform.sizeDelta = originalSizeSpare;
         SpareItemImage.rectTransform.position = originalLocationSpare;
 
-        //updateVisuals
-        updateVisuals();
+        
     }
 
     public void prevAnimEnded()
     {
         animationInCourse = false;
 
+        //updateVisuals
+        updateVisuals();
+
         //repositionImages
         selectedItemImage.rectTransform.position = originalLocationSelected;
         prevItemImage.rectTransform.position = originalLocationPrev;
@@ -161,9 +163,8 @@ public class ShopSelector : MonoBehaviour
         nextItemImage.rectTransform.sizeDelta = originalSizeNext;
         SpareItemImage.rectTransform.sizeDelta = originalSizeSpare;
         SpareItemImage.rectTransform.position = originalLocationSpare;
+        prevItemImage.transform.SetSiblingIndex(2);
 
-        //updateVisuals
-        updateVisuals();
     }
 
     //Debug
@@ -180,6 +181,25 @@ public class ShopSelector : MonoBehaviour
         selectedItemImage.sprite = items[indexSelected].image;
         nextItemImage.sprite = items[indexNext].image;
         prevItemImage.sprite = items[indexPrev].image;
-        marquee.setTextToShow(selectedItem.name);
+        marquee.setTextToShow(FindObjectOfType<LangResolver>().resolveText(selectedItem.description));
     }
+
+    public void setTextMarquee(string str)
+    {
+        marquee.setTextToShow(str);
+    }
+
+    public ShopItemStruct getSelectedItem()
+    {
+        return selectedItem;
+    }
+}
+
+[Serializable]
+public struct ShopItemStruct
+{
+    public string name;
+    public Sprite image;
+    public string description;
+    public int price;
 }

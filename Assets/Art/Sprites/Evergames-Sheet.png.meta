@@ -1,0 +1,982 @@
+fileFormatVersion: 2
+guid: ecc8c482b54f47540a41d51e73e4f627
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9127177173559627286
+    second: Evergames-Sheet_0
+  - first:
+      213: -7801905327087293387
+    second: Evergames-Sheet_1
+  - first:
+      213: -1026772571009088011
+    second: Evergames-Sheet_2
+  - first:
+      213: -4922216647428069458
+    second: Evergames-Sheet_3
+  - first:
+      213: -8136570364006215172
+    second: Evergames-Sheet_4
+  - first:
+      213: 64464927490918721
+    second: Evergames-Sheet_5
+  - first:
+      213: 3230953661976651975
+    second: Evergames-Sheet_6
+  - first:
+      213: 6078301245752386962
+    second: Evergames-Sheet_7
+  - first:
+      213: -3392929260455323942
+    second: Evergames-Sheet_8
+  - first:
+      213: 6616983321017100582
+    second: Evergames-Sheet_9
+  - first:
+      213: 959213121630553123
+    second: Evergames-Sheet_10
+  - first:
+      213: -865938101417139532
+    second: Evergames-Sheet_11
+  - first:
+      213: 5842596522995927256
+    second: Evergames-Sheet_12
+  - first:
+      213: 4028711270541479941
+    second: Evergames-Sheet_13
+  - first:
+      213: 294991307460325488
+    second: Evergames-Sheet_14
+  - first:
+      213: 4255917247194986434
+    second: Evergames-Sheet_15
+  - first:
+      213: -8512923280011138784
+    second: Evergames-Sheet_16
+  - first:
+      213: 4193144876912019687
+    second: Evergames-Sheet_17
+  - first:
+      213: -7660367619316487022
+    second: Evergames-Sheet_18
+  - first:
+      213: -2885685165121460468
+    second: Evergames-Sheet_19
+  - first:
+      213: 6181167138740539656
+    second: Evergames-Sheet_20
+  - first:
+      213: 5494644480736786523
+    second: Evergames-Sheet_21
+  - first:
+      213: 6328060761941045478
+    second: Evergames-Sheet_22
+  - first:
+      213: -7445012429629670986
+    second: Evergames-Sheet_23
+  - first:
+      213: 6653362016270835623
+    second: Evergames-Sheet_24
+  - first:
+      213: 4533437868746880029
+    second: Evergames-Sheet_25
+  - first:
+      213: -5699891431191267285
+    second: Evergames-Sheet_26
+  - first:
+      213: -6247543438900266114
+    second: Evergames-Sheet_27
+  - first:
+      213: 2308327518148095646
+    second: Evergames-Sheet_28
+  - first:
+      213: -1809524479475976058
+    second: Evergames-Sheet_29
+  - first:
+      213: -1382414672931827606
+    second: Evergames-Sheet_30
+  - first:
+      213: 4765311055638729652
+    second: Evergames-Sheet_31
+  - first:
+      213: -2204179723214742252
+    second: Evergames-Sheet_32
+  - first:
+      213: -2682768935066196759
+    second: Evergames-Sheet_33
+  - first:
+      213: -7993047202380675189
+    second: Evergames-Sheet_34
+  - first:
+      213: 3489613666993282231
+    second: Evergames-Sheet_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Evergames-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 595
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1bcefe7b0c55180800000000000000
+      internalID: -9127177173559627286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 595
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cebb7f0701ab390800000000000000
+      internalID: -7801905327087293387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 595
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f583e769cb20c1f0800000000000000
+      internalID: -1026772571009088011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 595
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea72986c906c0bbb0800000000000000
+      internalID: -4922216647428069458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 595
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf150730d58151f80800000000000000
+      internalID: -8136570364006215172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 595
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149419f828605e000800000000000000
+      internalID: 64464927490918721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8addbbc37a6dc20800000000000000
+      internalID: 3230953661976651975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 476
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295a2ee57c67a5450800000000000000
+      internalID: 6078301245752386962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 476
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6188a60d4e9e0d0800000000000000
+      internalID: -3392929260455323942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 476
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629a8eda54f34db50800000000000000
+      internalID: 6616983321017100582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 476
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324cea2804fcf4d00800000000000000
+      internalID: 959213121630553123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 476
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b22e8b72e19bf3f0800000000000000
+      internalID: -865938101417139532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8ca1f0592151150800000000000000
+      internalID: 5842596522995927256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 357
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500dc373e8bd8e730800000000000000
+      internalID: 4028711270541479941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 357
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070300df705081400800000000000000
+      internalID: 294991307460325488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 357
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7f380003e001b30800000000000000
+      internalID: 4255917247194986434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 357
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02968c651650cd980800000000000000
+      internalID: -8512923280011138784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 357
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e80710ac0b013a30800000000000000
+      internalID: 4193144876912019687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 238
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c6cb19c38e0b590800000000000000
+      internalID: -7660367619316487022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 238
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07225f91acf3f7d0800000000000000
+      internalID: -2885685165121460468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 238
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80192f173cae7c550800000000000000
+      internalID: 6181167138740539656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 238
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5870691b06e04c40800000000000000
+      internalID: 5494644480736786523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 238
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e075984cb9c1d750800000000000000
+      internalID: 6328060761941045478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 238
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b93e8ff3a00ea890800000000000000
+      internalID: -7445012429629670986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af56e5b08d755c50800000000000000
+      internalID: 6653362016270835623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 119
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1436f1f8b10aee30800000000000000
+      internalID: 4533437868746880029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 119
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b283d8151fae5e0b0800000000000000
+      internalID: -5699891431191267285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 119
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bf68dd7544c49a0800000000000000
+      internalID: -6247543438900266114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 119
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ee970d5a3d80020800000000000000
+      internalID: 2308327518148095646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 119
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688f57cb21743e6e0800000000000000
+      internalID: -1809524479475976058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a605c97ed2da0dce0800000000000000
+      internalID: -1382414672931827606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3969b4829c12240800000000000000
+      internalID: 4765311055638729652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 0
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d9aa0583e2961e0800000000000000
+      internalID: -2204179723214742252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 0
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e42de21ed3e4cad0800000000000000
+      internalID: -2682768935066196759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 0
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b878b2d1bedf21190800000000000000
+      internalID: -7993047202380675189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evergames-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 0
+        width: 452
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc9b7034299d6030800000000000000
+      internalID: 3489613666993282231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,3 +16,5 @@ NODYNAMICOBSTACLES=Elimine les obstacles dynamiques
 LESSPROJECTILES=Moins de projectiles
 SMALLEROBSTACLES=Moins d obstacles
 NOWAVEPROJECTILES=Eliminer les projectiles de vague
+BUY=ACHETER
+DRESSROOM=VESTIAIRE

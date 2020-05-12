@@ -48,6 +48,7 @@ public class PlayerHealth : MonoBehaviour
         }
         if (value < 0)
         {
+            Handheld.Vibrate();
             GameObject.Find("HeartContainer").GetComponent<HeartContainer>().lostHP();
         }
                 

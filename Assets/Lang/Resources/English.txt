@@ -16,3 +16,5 @@ NODYNAMICOBSTACLES=Remove movable obstacles
 LESSPROJECTILES=Less projectiles
 SMALLEROBSTACLES=Smaller obstacles
 NOWAVEPROJECTILES=Remove wave projectiles
+BUY=BUY
+DRESSROOM=DRESS ROOM

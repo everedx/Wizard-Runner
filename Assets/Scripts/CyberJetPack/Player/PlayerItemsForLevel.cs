@@ -20,6 +20,9 @@ public class PlayerItemsForLevel : MonoBehaviour
         }
         //All items have been loaded in their correspondant scripts. Use them.
         GameManager.instance.useMarkedItems();
+
+        //Import Items to the controllers of the game to change their characteristics.
+
     }
 
     

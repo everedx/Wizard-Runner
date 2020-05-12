@@ -16,3 +16,5 @@ NODYNAMICOBSTACLES=Beseitigt dynamische Hindernisse
 LESSPROJECTILES=Weniger Projektile
 SMALLEROBSTACLES=Weniger Hindernisse
 NOWAVEPROJECTILES=Wellenprojektile eliminieren
+BUY=KAUFEN
+DRESSROOM=Ankleidezimmer

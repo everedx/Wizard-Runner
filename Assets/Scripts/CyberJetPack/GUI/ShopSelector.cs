@@ -5,11 +5,13 @@ using UnityEngine.UI;
 using System;
 using Core.Data;
 
+public delegate void SelectedItem(ShopItemStruct item);
+
 public class ShopSelector : MonoBehaviour
 {
+    public event SelectedItem selectedItemEvent;
 
 
-   
     [SerializeField] ShopItemStruct[] items;
     [SerializeField] Image selectedItemImage;
     [SerializeField] Image prevItemImage;
@@ -30,6 +32,9 @@ public class ShopSelector : MonoBehaviour
     private ShopItemStruct selectedItem;
     private bool controlEnabled;
     private bool animationInCourse;
+
+    public ShopItemStruct SelectedItem { get => selectedItem; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +61,7 @@ public class ShopSelector : MonoBehaviour
             originalLocationSpare = SpareItemImage.rectTransform.position;
             marquee.setTextToShow(FindObjectOfType<LangResolver>().resolveText(selectedItem.description));
             anim = GetComponent<Animator>();
+            selectedItemEvent?.Invoke(selectedItem);
         }
     }
 
@@ -90,6 +96,7 @@ public class ShopSelector : MonoBehaviour
             //Animation next
             anim.SetTrigger("Next");
             animationInCourse = true;
+            selectedItemEvent?.Invoke(selectedItem);
         }
 
     }
@@ -123,6 +130,7 @@ public class ShopSelector : MonoBehaviour
             prevItemImage.transform.SetSiblingIndex(1);
             anim.SetTrigger("Prev");
             animationInCourse = true;
+            selectedItemEvent?.Invoke(selectedItem);
         }
         
     }

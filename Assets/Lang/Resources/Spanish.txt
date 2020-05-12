@@ -16,3 +16,5 @@ NODYNAMICOBSTACLES=Elimina obstaculos dinamicos
 LESSPROJECTILES=Menos proyectiles
 SMALLEROBSTACLES=Menos obstaculos
 NOWAVEPROJECTILES=Elimina proyectiles de onda
+BUY=COMPRAR
+DRESSROOM=VESTIDOR

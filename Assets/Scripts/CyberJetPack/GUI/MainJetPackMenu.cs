@@ -8,7 +8,10 @@ public class MainJetPackMenu : MenuController
 
     public OptionsMenu optionsMenu;
     public ShopMenu shopMenu;
+    public DressRoomMenu dressRoomMenu;
     public SimpleMainMenuPage titleMenu;
+
+ 
 
     // Start is called before the first frame update
     public void startGame()
@@ -24,6 +27,11 @@ public class MainJetPackMenu : MenuController
     public void ShowOptionsMenu()
     {
         ChangePage(optionsMenu);
+    }
+
+    public void ShowDressRoomMenu()
+    {
+        ChangePage(dressRoomMenu);
     }
 
     public void ShowShopMenu()

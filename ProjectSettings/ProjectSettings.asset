@@ -16,7 +16,7 @@ PlayerSettings:
   productName: Wizard Runner
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.27058825, g: 0.27058825, b: 0.27058825, a: 0.6509804}
+  m_SplashScreenBackgroundColor: {r: 0.09019608, g: 0.04705883, b: 0.10980393, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -42,8 +42,6 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 3
-  - logo: {fileID: 3489613666993282231, guid: ecc8c482b54f47540a41d51e73e4f627, type: 3}
-    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024

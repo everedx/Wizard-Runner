@@ -5,7 +5,6 @@ using Core.Data;
 using System;
 
 
-
 public class GameDataStore : GameDataStoreBase
 {
     public int bestMark = 0;
@@ -13,7 +12,7 @@ public class GameDataStore : GameDataStoreBase
     public string language;
 
     public List<ShopItemQuantityClass> itemsList = new List<ShopItemQuantityClass>();
-
+   
 
 
     public GameDataStore() : base()
@@ -107,19 +106,45 @@ public class GameDataStore : GameDataStoreBase
         }
     }
 
-    public void markItemForUse(string key)
+    public void markItemForUse(string key, bool use)
     {
         ShopItemQuantityClass item;
         int index = itemsList.FindLastIndex(c => c.name == key);
         if (index != -1)
         {
             item = itemsList[index];
-            itemsList[index] = new ShopItemQuantityClass(item.name, item.quantity, true);
+            itemsList[index] = new ShopItemQuantityClass(item.name, item.quantity, use);
         }
 
         
     }
 
+    public bool itemOwned(string key) 
+    {
+        ShopItemQuantityClass item;
+        int index = itemsList.FindLastIndex(c => c.name == key);
+        if (index != -1)
+        {
+            item = itemsList[index];
+            if (item.quantity > 0)
+                return true;
+        }
+        return false;
+    }
+
+    public bool isItemBeingUsed(String key)
+    {
+        ShopItemQuantityClass item;
+        int index = itemsList.FindLastIndex(c => c.name == key);
+        if (index != -1)
+        {
+            item = itemsList[index];
+            if (item.useNow == true)
+                return true;
+        }
+        return false;
+    }
+    
 
     public List<ShopItemQuantityClass> getListOfMarkedItemsToUse()
     {

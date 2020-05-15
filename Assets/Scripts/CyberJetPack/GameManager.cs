@@ -74,15 +74,25 @@ public class GameManager : GameManagerBase<GameManager, GameDataStore>
         SaveData();
     }
 
-    public void markItemToUse(string key)
+    public void markItemToUse(string key,bool use = true)
     {
-        m_DataStore.markItemForUse(key);
+        m_DataStore.markItemForUse(key, use);
     }
 
     public List<ShopItemQuantityClass> getListOfMarkedItemsToUse()
     {
 
         return m_DataStore.getListOfMarkedItemsToUse();
+    }
+
+    public bool itemOwned(string key)
+    {
+        return m_DataStore.itemOwned(key);
+    }
+
+    public bool isItemBeingUsed(string key)
+    {
+        return m_DataStore.isItemBeingUsed(key);
     }
 
 }

@@ -53,6 +53,13 @@ namespace Core.Data
                 if(!string.IsNullOrEmpty(shopSelector.getSelectedItem().description))
                     shopSelector.setTextMarquee(resolveText(shopSelector.getSelectedItem().description));
             }
+
+            //TabSelector
+            var allTabControls = Resources.FindObjectsOfTypeAll<TabDressRoom>();
+            foreach (var tabSelector in allTabControls)
+            {
+                tabSelector.updateVisuals();
+            }
         }
 
         public string resolveText(string key)

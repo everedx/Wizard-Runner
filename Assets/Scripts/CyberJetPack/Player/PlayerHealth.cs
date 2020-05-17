@@ -8,8 +8,11 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] int initialHealth;
     [SerializeField] float timeInvulAfterHit;
+    [SerializeField] Material materialShield;
     private float invulCounter;
     private int currentHealth;
+    private int shieldCurrentHealth;
+    [SerializeField] private int shieldInitialHeath; 
     SpriteRenderer sr;
 
     public int CurrentHealth { get => currentHealth; }
@@ -17,6 +20,8 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        shieldCurrentHealth = 0;
+        materialShield.SetFloat("_Alpha", 0f);
         sr = GetComponent<SpriteRenderer>();
         currentHealth = initialHealth;
         invulCounter = timeInvulAfterHit;
@@ -84,18 +89,45 @@ public class PlayerHealth : MonoBehaviour
     {
         if ((collision.tag.Equals("Obstacle") || collision.tag.Equals("Projectile")) && invulCounter > timeInvulAfterHit)
         {
-            updateHealth(-1);
-            invulCounter = 0;
+            if (shieldCurrentHealth <= 0)
+            {
+                updateHealth(-1);
+                invulCounter = 0;
+            }
+            else
+            {
+                shieldCurrentHealth -= 1;
+                float alphaValue = materialShield.GetFloat("_Alpha");
+                alphaValue -= 0.3f;
+                if (alphaValue < 0)
+                    alphaValue = 0;
+                materialShield.SetFloat("_Alpha", alphaValue);
+            }
+            
 
 
         }
     }
 
 
+    public void setBasicShieldPlusOne()
+    {
+        initialHealth += 1;
+        currentHealth = initialHealth;
+    }
+
+    public void setAdvancedShield()
+    {
+        shieldCurrentHealth = shieldInitialHeath;
+        materialShield.SetFloat("_Alpha",0.8f);
+    }
+
     IEnumerator delayLevelLoad()
     {
         yield return new WaitForSeconds(2f);
         GameObject.Find("LevelChanger").GetComponent<LevelChanger>().changeLevel(SceneManager.GetActiveScene().name);
     }
+
+
 
 }

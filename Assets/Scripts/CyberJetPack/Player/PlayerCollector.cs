@@ -73,4 +73,9 @@ public class PlayerCollector : MonoBehaviour
    
     }
 
+    public void setDoubleCoins()
+    {
+        valueOfCoins = valueOfCoins * 2;
+    }
+
 }

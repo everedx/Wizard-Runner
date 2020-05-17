@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShieldMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: b0d080dc0263c4348a035ba173236d3a,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _EmissionTex:
+        m_Texture: {fileID: 2800000, guid: 7613ddaa0cff5924483a49b0e21d3e7b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: 2800000, guid: b00c554ccb5531b49b8aa0d2efbf75bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 544763c5aba0c09459e84a3e85bda9b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldTex:
+        m_Texture: {fileID: 2800000, guid: 81d28a2f07f267241aa4326b6455b3f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0
+    - _GradientTileY: 0.39
+    - _ShieldSpeed: 0.363
+    m_Colors:
+    - _EmissionColor: {r: 2.71458, g: 1.4981409, b: 2.1696293, a: 1}
+    - _ExtraEmissionColor: {r: 10.571938, g: 20.561935, b: 18.931543, a: 1}
+    - _MainTexTiling: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

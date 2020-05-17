@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        movementEnabled = true;
+        movementEnabled = false;
         rBody = GetComponent<Rigidbody2D>();
         speed = initialSpeed;
         iniPos = transform.position;
@@ -122,5 +122,11 @@ public class PlayerController : MonoBehaviour
     public void disableMovement()
     {
         movementEnabled = false;
+    }
+
+    public void enableMovement()
+    {
+        Debug.Log("Movement enabled.");
+        movementEnabled = true;
     }
 }

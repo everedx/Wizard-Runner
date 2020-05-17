@@ -22,11 +22,17 @@ public class ProjectileGenerator : MonoBehaviour
     private float timeToGenerate;
     private int typeOfProjectile; //1 = Line , 2 = wave
 
+    //powers
+    private bool noWaveProjectiles;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        noWaveProjectiles = false;
         timeToGenerate = Random.Range(minTimeToGenerate, maxTimeToGenerate);
         typeOfProjectile = 0;
+        
     }
 
     // Update is called once per frame
@@ -47,7 +53,10 @@ public class ProjectileGenerator : MonoBehaviour
                 }
                 else if (typeOfProjectile == 2)
                 {
-                    generateWaveProjectile();
+                    if(noWaveProjectiles)
+                        generateLineProjectile();
+                    else
+                        generateWaveProjectile();
                 }
 
             }
@@ -74,5 +83,16 @@ public class ProjectileGenerator : MonoBehaviour
     {
         ProjectileWarning warning = Instantiate(waveProjectileWarning, new Vector3(0, 40, 0), Quaternion.identity).GetComponent<ProjectileWarning>();
         warning.setProjectile(Instantiate(waveProjectile,new Vector3(distanceToGenerate+ playerController.Distance, Random.Range(-3,4),0),Quaternion.identity).transform);
+    }
+
+
+    public void setNoWavePower()
+    {
+        noWaveProjectiles = true;
+    }
+
+    public void setLessProjectilesPower()
+    {
+        maxLineProjectiles = maxLineProjectiles / 2;
     }
 }

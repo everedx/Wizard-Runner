@@ -17,7 +17,6 @@ public class LevelGenerator : MonoBehaviour
 
     private bool generateNext;
     private int randomModeChooser;
-   // private int[] numbersOfLoto;
     private int[] numbersLotoCoins;
     private int[] numbersLotoObstacles;
     private int[] numbersLotoCoinsCopy;
@@ -26,12 +25,21 @@ public class LevelGenerator : MonoBehaviour
     private int numberOfItemsInSequence;
     private int lastSequenceMode; //0 = 1 obstacles , 2 = coins
 
+
+    //powers
+    private bool smallObstaclesActivated;
+    private bool noDynamicActivated;
+    
+
+
     // Start is called before the first frame update
     void Start()
     {
         
         int y = calculateMaxValueValuesRatio(ratioObstaclesRoundCoinsRound);
         int x = 1;
+        smallObstaclesActivated = false;
+        noDynamicActivated = false;
         lastSequenceMode = 0;
         positionToCheck = 0;
         generateNext = true;
@@ -144,11 +152,21 @@ public class LevelGenerator : MonoBehaviour
 
     private void generateObstacles()
     {
+        GameObject obj;
         lastSequenceMode = 1;
         numberOfItemsInSequence = UnityEngine.Random.Range(minNunberOfObstaclesPerGenation, maxNunberOfObstaclesPerGenation + 1);
         for (int i = 0; i < numberOfItemsInSequence; i++)
         {
-            Instantiate(prefabsStaticObstacles[UnityEngine.Random.Range(0, prefabsStaticObstacles.Length)], new Vector3(Camera.main.transform.position.x + spaceBetweenRounds + distanceBetweenGenerations * i, UnityEngine.Random.Range(-6, 6+1), 10), Quaternion.Euler(0, 0, UnityEngine.Random.Range(0, 360)));
+            if (noDynamicActivated)
+            {
+                obj = Instantiate(prefabsStaticObstacles[0], new Vector3(Camera.main.transform.position.x + spaceBetweenRounds + distanceBetweenGenerations * i, UnityEngine.Random.Range(-6, 6 + 1), 10), Quaternion.Euler(0, 0, UnityEngine.Random.Range(0, 360)));
+            }
+            else
+                obj= Instantiate(prefabsStaticObstacles[UnityEngine.Random.Range(0, prefabsStaticObstacles.Length)], new Vector3(Camera.main.transform.position.x + spaceBetweenRounds + distanceBetweenGenerations * i, UnityEngine.Random.Range(-6, 6+1), 10), Quaternion.Euler(0, 0, UnityEngine.Random.Range(0, 360)));
+            if (smallObstaclesActivated)
+            {
+                obj.transform.localScale = obj.transform.localScale / 2;
+            }
         }
         positionToCheck = Camera.main.transform.position.x + spaceBetweenRounds * 2 + distanceBetweenGenerations * (numberOfItemsInSequence);
     }
@@ -162,6 +180,16 @@ public class LevelGenerator : MonoBehaviour
             Instantiate(prefabsCoins[UnityEngine.Random.Range(0, prefabsCoins.Length)], new Vector3(Camera.main.transform.position.x + spaceBetweenRounds + distanceBetweenGenerations * i, 0, 10), Quaternion.identity);
         }
         positionToCheck = Camera.main.transform.position.x + spaceBetweenRounds * 2 + distanceBetweenGenerations * (numberOfItemsInSequence);
+    }
+
+    public void setPowerSmallObstacles()
+    {
+        smallObstaclesActivated = true;
+    }
+
+    public void setPowerNoDynamic()
+    {
+        noDynamicActivated = true;
     }
 
 }

@@ -10,8 +10,8 @@ public class MainJetPackMenu : MenuController
     public ShopMenu shopMenu;
     public DressRoomMenu dressRoomMenu;
     public SimpleMainMenuPage titleMenu;
+    [SerializeField] GameObject achievementsPanel;
 
- 
 
     // Start is called before the first frame update
     public void startGame()
@@ -47,5 +47,16 @@ public class MainJetPackMenu : MenuController
     protected virtual void Awake()
     {
         ShowTitleScreen();
+    }
+
+
+    public void showAchievements()
+    {
+        achievementsPanel.SetActive(true);
+    }
+
+    public void hideAchievements()
+    {
+        achievementsPanel.SetActive(false);
     }
 }

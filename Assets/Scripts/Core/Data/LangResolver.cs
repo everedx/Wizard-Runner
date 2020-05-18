@@ -60,6 +60,20 @@ namespace Core.Data
             {
                 tabSelector.updateVisuals();
             }
+
+            //ButtonSelector
+            var dressRooms = Resources.FindObjectsOfTypeAll<DressRoomMenu>();
+            foreach (var dressRoom in dressRooms)
+            {
+                dressRoom.updateButtonSelect();
+            }
+
+            //sHOP
+            var shops = Resources.FindObjectsOfTypeAll<ShopMenu>();
+            foreach (var shop in shops)
+            {
+                shop.updateButtonShop();
+            }
         }
 
         public string resolveText(string key)

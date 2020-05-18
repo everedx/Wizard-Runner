@@ -59,6 +59,33 @@ public class DressRoomMenu : SimpleMainMenuPage
         selectedItemInDressRoom = item;
     }
 
+    public void updateButtonSelect()
+    {
+        if (selectedItemInDressRoom.Equals(default(DressRoomStruct)))
+        {
+            buttonSelect.transform.GetChild(0).GetComponent<Text>().text = FindObjectOfType<LangResolver>().resolveText("SELECT");
+        }
+        else
+        {
+            if (selectedItemInDressRoom.owned)
+            {
+                if (selectedItemInDressRoom.selected)
+                {
+                    buttonSelect.transform.GetChild(0).GetComponent<Text>().text = FindObjectOfType<LangResolver>().resolveText("REMOVE");
+                }
+                else
+                {
+                    buttonSelect.transform.GetChild(0).GetComponent<Text>().text = FindObjectOfType<LangResolver>().resolveText("SELECT");
+                }
+            }
+            else
+            {
+                buttonSelect.transform.GetChild(0).GetComponent<Text>().text = FindObjectOfType<LangResolver>().resolveText("SELECT");
+            }
+          
+        }
+    }
+
     public void selectedItemButton()
     {
         if (!GameManager.instance.isItemBeingUsed(selectedItemInDressRoom.name))

@@ -15,11 +15,14 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private int shieldInitialHeath; 
     SpriteRenderer sr;
 
+    bool shieldActivated;
     public int CurrentHealth { get => currentHealth; }
+    public bool ShieldActivated { get => shieldActivated; set => shieldActivated = value; }
 
     // Start is called before the first frame update
     void Start()
     {
+        shieldActivated = false;
         shieldCurrentHealth = 0;
         materialShield.SetFloat("_Alpha", 0f);
         sr = GetComponent<SpriteRenderer>();
@@ -96,6 +99,7 @@ public class PlayerHealth : MonoBehaviour
             }
             else
             {
+                Handheld.Vibrate();
                 shieldCurrentHealth -= 1;
                 float alphaValue = materialShield.GetFloat("_Alpha");
                 alphaValue -= 0.3f;
@@ -119,7 +123,14 @@ public class PlayerHealth : MonoBehaviour
     public void setAdvancedShield()
     {
         shieldCurrentHealth = shieldInitialHeath;
-        materialShield.SetFloat("_Alpha",0.8f);
+        //materialShield.SetFloat("_Alpha",0.8f);
+        shieldActivated = true;
+        
+    }
+
+    public void enableShieldVisual()
+    {
+        materialShield.SetFloat("_Alpha", 0.8f);
     }
 
     IEnumerator delayLevelLoad()

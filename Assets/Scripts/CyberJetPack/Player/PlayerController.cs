@@ -127,6 +127,11 @@ public class PlayerController : MonoBehaviour
     public void enableMovement()
     {
         Debug.Log("Movement enabled.");
+        
         movementEnabled = true;
+        if (GetComponent<PlayerHealth>().ShieldActivated)
+        {
+            GetComponent<PlayerHealth>().enableShieldVisual();
+        }
     }
 }

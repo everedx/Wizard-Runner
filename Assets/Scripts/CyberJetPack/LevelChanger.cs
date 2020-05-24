@@ -55,7 +55,8 @@ public class LevelChanger : MonoBehaviour
             else
             {
                 isFadingOut = false;
-                SceneManager.LoadScene(sceneToLoad);
+                // SceneManager.LoadScene(sceneToLoad);
+                GetComponent<InterstitialAd>().showAd(sceneToLoad);
             }
         }
         else if(isFadingIn)

@@ -95,4 +95,13 @@ public class GameManager : GameManagerBase<GameManager, GameDataStore>
         return m_DataStore.isItemBeingUsed(key);
     }
 
+    public void setDateLastCommercial()
+    {
+        m_DataStore.setDateLastCommercial();
+    }
+
+    public int getDateLastCommercial()
+    {
+        return m_DataStore.getDateLastCommercial();
+    }
 }

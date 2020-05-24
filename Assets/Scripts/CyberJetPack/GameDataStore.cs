@@ -10,14 +10,17 @@ public class GameDataStore : GameDataStoreBase
     public int bestMark = 0;
     public int money = 0;
     public string language;
+    public int dateLastCommercial;
 
     public List<ShopItemQuantityClass> itemsList = new List<ShopItemQuantityClass>();
-   
-
+    public List<ShopItemQuantityClass> bodiesList = new List<ShopItemQuantityClass>();
+    public List<ShopItemQuantityClass> particlesList = new List<ShopItemQuantityClass>();
 
     public GameDataStore() : base()
     {
         language = "English";
+        dateLastCommercial = 0;
+       
 
         itemsList.Add(new ShopItemQuantityClass("BasicShield", 0));
         itemsList.Add(new ShopItemQuantityClass("AdvancedShield", 0));
@@ -26,6 +29,11 @@ public class GameDataStore : GameDataStoreBase
         itemsList.Add(new ShopItemQuantityClass("NoWaveProjectiles", 0));
         itemsList.Add(new ShopItemQuantityClass("LessProjectiles", 0));
         itemsList.Add(new ShopItemQuantityClass("SmallerObstacles", 0));
+
+        //Add Particles
+
+
+        //Add bodies
     }
 
 
@@ -160,7 +168,15 @@ public class GameDataStore : GameDataStoreBase
         return listItemsToUse;
     }
 
+    public void setDateLastCommercial()
+    {
+        dateLastCommercial =(int) (DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalSeconds;
+    }
 
+    public int getDateLastCommercial()
+    {
+       return dateLastCommercial;
+    }
 
 }
 
@@ -183,3 +199,7 @@ public class ShopItemQuantityClass
         this.useNow = useNow;
     }
 }
+
+
+
+

@@ -11,6 +11,7 @@ public class DressRoomMenu : SimpleMainMenuPage
     [SerializeField] TabDressRoom dressRoomControl;
     [SerializeField] Button buttonSelect;
     [SerializeField] Image selectedParticle;
+    [SerializeField] Image selectedBody;
     [SerializeField] GameObject selectedPowersControl;
     [SerializeField] Shader shaderHolo;
 

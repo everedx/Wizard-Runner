@@ -266,11 +266,12 @@ public class TabDressRoom : MonoBehaviour
                 {
                     objectHolder = new GameObject(str.name, new Type[] { typeof(RectTransform), typeof(CanvasRenderer), typeof(Image) });
                     objectHolder.transform.SetParent(pageObject.transform);
+                    objectHolder.transform.localScale = new Vector3(1, 1, 1);
                     Image image = objectHolder.GetComponent<Image>();
                     image.sprite = str.image;
                     objectHolder.AddComponent<ClickAction>();
                     if (str.owned)
-                        image.color = new Color(1,1,1,1);
+                        image.color = new Color(1, 1, 1, 1);
                     else
                         image.color = new Color(1, 1, 1, 0.1f);
                     if (str.selected && str.owned)
@@ -289,6 +290,7 @@ public class TabDressRoom : MonoBehaviour
                 {
                     objectHolder = new GameObject(str.name, new Type[] { typeof(RectTransform), typeof(CanvasRenderer), typeof(Image) });
                     objectHolder.transform.SetParent(pageObject.transform);
+                    objectHolder.transform.localScale = new Vector3(1, 1, 1);
                     Image image = objectHolder.GetComponent<Image>();
                     image.sprite = str.image;
                     objectHolder.AddComponent<ClickAction>();
@@ -312,6 +314,7 @@ public class TabDressRoom : MonoBehaviour
                 {
                     objectHolder = new GameObject(str.name, new Type[] { typeof(RectTransform), typeof(CanvasRenderer), typeof(Image) });
                     objectHolder.transform.SetParent(pageObject.transform);
+                    objectHolder.transform.localScale = new Vector3(1, 1, 1);
                     Image image = objectHolder.GetComponent<Image>();
                     image.sprite = str.image;
                     objectHolder.AddComponent<ClickAction>();

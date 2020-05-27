@@ -12,7 +12,8 @@ public class PlayerHealth : MonoBehaviour
     private float invulCounter;
     private int currentHealth;
     private int shieldCurrentHealth;
-    [SerializeField] private int shieldInitialHeath; 
+    [SerializeField] private int shieldInitialHeath;
+    [SerializeField] GameObject gameLevelObj;
     SpriteRenderer sr;
 
     bool shieldActivated;
@@ -48,39 +49,43 @@ public class PlayerHealth : MonoBehaviour
 
     public void updateHealth(int value)
     {
-        currentHealth += value;
-        //Debug.Log("Health: " + currentHealth);
-        if (value > 0)
+        if (currentHealth > 0)
         {
-            GameObject.Find("HeartContainer").GetComponent<HeartContainer>().addHP();
-        }
-        if (value < 0)
-        {
-            Handheld.Vibrate(); //PC
-            GameObject.Find("HeartContainer").GetComponent<HeartContainer>().lostHP();
-        }
-                
-
-        if (getHealth() <= 0)
-        {
-            bool markBeated = false;
-            if (GameManager.instanceExists)
+            currentHealth += value;
+            //Debug.Log("Health: " + currentHealth);
+            if (value > 0)
             {
-                markBeated= GameManager.instance.registerMark(GetComponent<PlayerController>().Distance);
+                GameObject.Find("HeartContainer").GetComponent<HeartContainer>().addHP();
+            }
+            if (value < 0)
+            {
+                Handheld.Vibrate(); //PC
+                GameObject.Find("HeartContainer").GetComponent<HeartContainer>().lostHP();
             }
 
-            if (markBeated)
-            {
-                //SHOW REWARD
-                Debug.Log(markBeated);
-                
-            }
 
-            // Debug.Log("Game Over");
-            GetComponent<PlayerController>().disableMovement();
-            GameManager.instance.addMoney(GetComponent<PlayerCollector>().Score);
-            StartCoroutine("delayLevelLoad");
+            if (getHealth() <= 0)
+            {
+                bool markBeated = false;
+                if (GameManager.instanceExists)
+                {
+                    markBeated = GameManager.instance.registerMark(GetComponent<PlayerController>().Distance);
+                }
+
+                if (markBeated)
+                {
+                    //SHOW REWARD
+                    Debug.Log(markBeated);
+
+                }
+
+                // Debug.Log("Game Over");
+                GetComponent<PlayerController>().disableMovement();
+                GameManager.instance.addMoney(GetComponent<PlayerCollector>().Score);
+                StartCoroutine("delayLevelLoad");
+            }
         }
+        
     }
 
     private int getHealth()
@@ -106,6 +111,7 @@ public class PlayerHealth : MonoBehaviour
                 if (alphaValue < 0)
                     alphaValue = 0;
                 materialShield.SetFloat("_Alpha", alphaValue);
+                invulCounter = 0;
             }
             
 
@@ -136,7 +142,13 @@ public class PlayerHealth : MonoBehaviour
     IEnumerator delayLevelLoad()
     {
         yield return new WaitForSeconds(2f);
-        GameObject.Find("LevelChanger").GetComponent<LevelChanger>().changeLevel(SceneManager.GetActiveScene().name);
+       // GameObject.Find("LevelChanger").GetComponent<LevelChanger>().changeLevel(SceneManager.GetActiveScene().name);
+
+        //SHOW END LEVEL
+
+        gameLevelObj.SetActive(true);
+        gameLevelObj.GetComponent<EndLevelScreen>().startAnimationToShow();
+
     }
 
 

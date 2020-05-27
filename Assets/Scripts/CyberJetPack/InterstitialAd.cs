@@ -14,7 +14,8 @@ public class InterstitialAd : MonoBehaviour
     private string levelToLoad;
     void Start()
     {
-        Advertisement.Initialize(gameId, testMode);
+        if (!Advertisement.isInitialized)
+            Advertisement.Initialize(gameId, testMode);
         levelToLoad = null;
     }
 
@@ -39,6 +40,7 @@ public class InterstitialAd : MonoBehaviour
             {
 
                 ShowOptions showOptions = new ShowOptions();
+                
                 showOptions.resultCallback = result =>
                 {
                     GameManager.instance.setDateLastCommercial();
@@ -46,7 +48,8 @@ public class InterstitialAd : MonoBehaviour
                 };
                 if (Advertisement.IsReady())
                 {
-                    Advertisement.Show(showOptions);
+                   
+                    Advertisement.Show("video",showOptions);
                 }
             }
             else

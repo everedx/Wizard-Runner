@@ -13,11 +13,6 @@ public class EndLevelScreen : MonoBehaviour
     PlayerController playerController;
     PlayerCollector playerCollector;
 
-    private void Start()
-    {
-        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
-        playerCollector = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCollector>();
-    }
 
     public void gotoMenu()
     {
@@ -37,7 +32,8 @@ public class EndLevelScreen : MonoBehaviour
 
     public void setAllTexts()
     {
-
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        playerCollector = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCollector>();
         textCoins.text = playerCollector.Score.ToString();
         textTotalCoins.text = GameManager.instance.getCurrentMoney().ToString();
         textDistance.text = playerController.Distance.ToString() + " M";

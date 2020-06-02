@@ -14,7 +14,7 @@ public class DressRoomMenu : SimpleMainMenuPage
     [SerializeField] Image selectedBody;
     [SerializeField] GameObject selectedPowersControl;
     [SerializeField] Shader shaderHolo;
-
+    [SerializeField] cosmetic[] cosmetics;
     DressRoomStruct selectedItemInDressRoom;
     // Start is called before the first frame update
     void Start()
@@ -123,5 +123,14 @@ public class DressRoomMenu : SimpleMainMenuPage
             image.material = new Material(shaderHolo);
 
         }
+
+        selectedBody.sprite = Array.Find(cosmetics,c => c.name == GameManager.instance.getBodyToUse().name).sprite;
     }
+}
+
+[Serializable]
+struct cosmetic
+{
+   public string name;
+   public Sprite sprite;
 }

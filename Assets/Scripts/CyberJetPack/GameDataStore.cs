@@ -31,18 +31,14 @@ public class GameDataStore : GameDataStoreBase
         itemsList.Add(new ShopItemQuantityClass("SmallerObstacles", 0));
 
         //Add Particles
-        particlesList.Add(new ShopItemQuantityClass("particleDefault", 1));
-        particlesList.Add(new ShopItemQuantityClass("particle1", 0));
-        particlesList.Add(new ShopItemQuantityClass("particle2", 0));
-        particlesList.Add(new ShopItemQuantityClass("particle3", 0));
-        particlesList.Add(new ShopItemQuantityClass("particle4", 0));
+        particlesList.Add(new ShopItemQuantityClass("DefaultParticle", 1,true));
+
 
         //Add bodies
-        particlesList.Add(new ShopItemQuantityClass("bodyDefault", 1));
-        particlesList.Add(new ShopItemQuantityClass("body1", 0));
-        particlesList.Add(new ShopItemQuantityClass("body2", 0));
-        particlesList.Add(new ShopItemQuantityClass("body3", 0));
-        particlesList.Add(new ShopItemQuantityClass("body4", 0));
+        bodiesList.Add(new ShopItemQuantityClass("DefaultBody", 1,true));
+        bodiesList.Add(new ShopItemQuantityClass("RedBody", 0));
+        bodiesList.Add(new ShopItemQuantityClass("PurpleBody", 0));
+
     }
 
 
@@ -243,6 +239,20 @@ public class GameDataStore : GameDataStoreBase
         }
 
         return listItemsToUse;
+    }
+
+    public ShopItemQuantityClass getBodyToUse()
+    {
+    
+        foreach (ShopItemQuantityClass item in bodiesList)
+        {
+            if (item.useNow)
+            {
+                return item;
+            }
+        }
+
+        return bodiesList[0];
     }
 
     public void setDateLastCommercial()

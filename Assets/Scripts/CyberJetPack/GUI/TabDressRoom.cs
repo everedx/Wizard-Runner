@@ -109,12 +109,12 @@ public class TabDressRoom : MonoBehaviour
         }
         if (indexBodies != -1)
         {
-            if (!namesOfBodies[indexPowers].owned)
+            if (!namesOfBodies[indexBodies].owned)
                 return;
         }
         if (indexParticles != -1)
         {
-            if (!namesOfParticles[indexPowers].owned)
+            if (!namesOfParticles[indexParticles].owned)
                 return;
         }
 
@@ -125,11 +125,11 @@ public class TabDressRoom : MonoBehaviour
         }
         for (int i = 0; i < namesOfBodies.Length; i++)
         {
-            namesOfPowers[i].selected = false;
+            namesOfBodies[i].selected = false;
         }
         for (int i = 0; i < namesOfParticles.Length; i++)
         {
-            namesOfPowers[i].selected = false;
+            namesOfParticles[i].selected = false;
         }
 
         int index = Array.FindIndex(namesOfPowers, c => c.name == item);

@@ -1796,6 +1796,53 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopSelector2
       objectReference: {fileID: 0}
+    - target: {fileID: 8716989240737420739, guid: d551ecd1cc9370e4d8b6eae02c0b7852,
+        type: 3}
+      propertyPath: items.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716989240737420739, guid: d551ecd1cc9370e4d8b6eae02c0b7852,
+        type: 3}
+      propertyPath: items.Array.data[1].image
+      value: 
+      objectReference: {fileID: 21300000, guid: 50f7d9865c15aff4185781b5698887cc,
+        type: 3}
+    - target: {fileID: 8716989240737420739, guid: d551ecd1cc9370e4d8b6eae02c0b7852,
+        type: 3}
+      propertyPath: items.Array.data[0].image
+      value: 
+      objectReference: {fileID: 21300000, guid: e112a208b7a01bc42ab236230d779fbf,
+        type: 3}
+    - target: {fileID: 8716989240737420739, guid: d551ecd1cc9370e4d8b6eae02c0b7852,
+        type: 3}
+      propertyPath: items.Array.data[0].description
+      value: RED
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716989240737420739, guid: d551ecd1cc9370e4d8b6eae02c0b7852,
+        type: 3}
+      propertyPath: items.Array.data[1].description
+      value: PURPLE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716989240737420739, guid: d551ecd1cc9370e4d8b6eae02c0b7852,
+        type: 3}
+      propertyPath: items.Array.data[0].name
+      value: RedBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716989240737420739, guid: d551ecd1cc9370e4d8b6eae02c0b7852,
+        type: 3}
+      propertyPath: items.Array.data[1].name
+      value: PurpleBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716989240737420739, guid: d551ecd1cc9370e4d8b6eae02c0b7852,
+        type: 3}
+      propertyPath: items.Array.data[0].price
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716989240737420739, guid: d551ecd1cc9370e4d8b6eae02c0b7852,
+        type: 3}
+      propertyPath: items.Array.data[1].price
+      value: 20000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d551ecd1cc9370e4d8b6eae02c0b7852, type: 3}
 --- !u!224 &253868731 stripped
@@ -9802,7 +9849,25 @@ MonoBehaviour:
     owned: 0
     selected: 0
     type: POWER
-  namesOfBodies: []
+  namesOfBodies:
+  - name: DefaultBody
+    image: {fileID: 21300000, guid: 208c6dd9bfe937344b4d247b774c44cf, type: 3}
+    description: DEFAULTBODY
+    owned: 1
+    selected: 0
+    type: BODY
+  - name: RedBody
+    image: {fileID: 21300000, guid: 1474578fde5632b42875623b7d6ab8e7, type: 3}
+    description: RED
+    owned: 0
+    selected: 0
+    type: BODY
+  - name: PurpleBody
+    image: {fileID: 21300000, guid: 51cee8b4d12fd1b4f8bdbc2b89e1c365, type: 3}
+    description: PURPLE
+    owned: 0
+    selected: 0
+    type: BODY
   namesOfParticles: []
 --- !u!1 &1611693077
 GameObject:
@@ -10489,6 +10554,16 @@ MonoBehaviour:
   selectedPowersControl: {fileID: 307750412}
   shaderHolo: {fileID: -6465566751694194690, guid: 1a9fbaff1742bc940abff440fd02a52e,
     type: 3}
+  cosmetics:
+  - name: DefaultBody
+    sprite: {fileID: -7190704517637666470, guid: 329c36003dbc090478c7c02bdb81ae3b,
+      type: 3}
+  - name: RedBody
+    sprite: {fileID: -5095833934573697189, guid: 21c1b6fb62a034448b07d8d0cca90635,
+      type: 3}
+  - name: PurpleBody
+    sprite: {fileID: -5534890499020918805, guid: d2ba8394d2f39d64d9985c6dd1a45c9d,
+      type: 3}
 --- !u!114 &1662699952
 MonoBehaviour:
   m_ObjectHideFlags: 0

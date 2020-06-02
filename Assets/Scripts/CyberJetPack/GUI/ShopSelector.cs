@@ -38,13 +38,13 @@ public class ShopSelector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (items.Length < 4)
-        {
-            Debug.Log("Not enough items in the shop. Control disabled.");
-            controlEnabled = false;
-        }
-        else
-        {
+//if (items.Length < 4)
+      //  {
+       //     Debug.Log("Not enough items in the shop. Control disabled.");
+       //     controlEnabled = false;
+      //  }
+       // else
+      //  {
             animationInCourse = false;
             controlEnabled = true;
             selectedItem = items[0];
@@ -62,7 +62,7 @@ public class ShopSelector : MonoBehaviour
             marquee.setTextToShow(FindObjectOfType<LangResolver>().resolveText(selectedItem.description));
             anim = GetComponent<Animator>();
             selectedItemEvent?.Invoke(selectedItem);
-        }
+        //}
     }
 
 

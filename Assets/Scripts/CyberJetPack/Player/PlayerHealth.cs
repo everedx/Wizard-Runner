@@ -59,7 +59,7 @@ public class PlayerHealth : MonoBehaviour
             }
             if (value < 0)
             {
-                Handheld.Vibrate(); //PC
+               // Handheld.Vibrate(); //PC
                 GameObject.Find("HeartContainer").GetComponent<HeartContainer>().lostHP();
             }
 
@@ -104,7 +104,7 @@ public class PlayerHealth : MonoBehaviour
             }
             else
             {
-                Handheld.Vibrate(); //PC
+                //Handheld.Vibrate(); //PC
                 shieldCurrentHealth -= 1;
                 float alphaValue = materialShield.GetFloat("_Alpha");
                 alphaValue -= 0.3f;

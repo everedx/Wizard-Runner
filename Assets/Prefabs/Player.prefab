@@ -284,7 +284,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 3
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -865,7 +865,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 22.54
+      scalar: 2.24
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -1361,10 +1361,10 @@ ParticleSystem:
         m_NumAlphaKeys: 2
   UVModule:
     serializedVersion: 2
-    enabled: 0
+    enabled: 1
     mode: 0
-    timeMode: 0
-    fps: 30
+    timeMode: 2
+    fps: 20
     frameOverTime:
       serializedVersion: 2
       minMaxState: 1
@@ -1472,8 +1472,8 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     speedRange: {x: 0, y: 1}
-    tilesX: 1
-    tilesY: 1
+    tilesX: 3
+    tilesY: 2
     animationType: 0
     rowIndex: 0
     cycles: 1
@@ -3610,7 +3610,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 3
     type: 1
     collisionMode: 1
@@ -4766,8 +4766,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: a41c66aef486f8142955af18e7acc7ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4970,7 +4969,7 @@ MonoBehaviour:
   incrementInterval: 500
   ps: {fileID: 91490903334292084}
   stepObject: {fileID: 0}
-  particlesPerSecond: 22
+  particlesPerSecond: 10
   textDistance: {fileID: 0}
   bestMarkText: {fileID: 0}
   dynamicParallax: {fileID: 0}
@@ -4989,6 +4988,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialHealth: 3
   timeInvulAfterHit: 2
+  materialShield: {fileID: 0}
+  shieldInitialHeath: 0
+  gameLevelObj: {fileID: 0}
 --- !u!114 &536265954208741580
 MonoBehaviour:
   m_ObjectHideFlags: 0

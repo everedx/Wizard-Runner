@@ -10,7 +10,6 @@ public class DressRoomMenu : SimpleMainMenuPage
 
     [SerializeField] TabDressRoom dressRoomControl;
     [SerializeField] Button buttonSelect;
-    [SerializeField] Image selectedParticle;
     [SerializeField] Image selectedBody;
     [SerializeField] GameObject selectedPowersControl;
     [SerializeField] Shader shaderHolo;
@@ -36,6 +35,7 @@ public class DressRoomMenu : SimpleMainMenuPage
         else
         {
             buttonSelect.interactable = true;
+            Debug.Log("Selected item(" + item.name + ") being used: " + GameManager.instance.isItemBeingUsed(item.name));
             if (GameManager.instance.isItemBeingUsed(item.name))
             {
                 if (item.type.Equals("POWER"))
@@ -89,6 +89,7 @@ public class DressRoomMenu : SimpleMainMenuPage
 
     public void selectedItemButton()
     {
+        Debug.Log("Item " + selectedItemInDressRoom.name + " selected: " + GameManager.instance.isItemBeingUsed(selectedItemInDressRoom.name));
         if (!GameManager.instance.isItemBeingUsed(selectedItemInDressRoom.name))
         {
             GameManager.instance.markItemToUse(selectedItemInDressRoom.name, true);

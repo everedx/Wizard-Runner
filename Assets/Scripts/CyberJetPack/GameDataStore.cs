@@ -117,7 +117,7 @@ public class GameDataStore : GameDataStoreBase
         for (int index = 0; index < itemsList.Count;index++)
         {
             item = itemsList[index];
-            itemsList[index] = new ShopItemQuantityClass(item.name, item.quantity,false);
+            itemsList[index] = new ShopItemQuantityClass(item.name, item.quantity,item.useNow);
         }
     }
 
@@ -150,14 +150,16 @@ public class GameDataStore : GameDataStoreBase
             {
                 for (int i = 0; i < bodiesList.Count; i++)
                 {
-                    item = bodiesList[index];
+                    item = bodiesList[i];
                     if (i != index)
                     {
-                        bodiesList[index] = new ShopItemQuantityClass(item.name, item.quantity, !use);
+                        Debug.Log(item.name+ " used = " + !use);
+                        bodiesList[i] = new ShopItemQuantityClass(item.name, item.quantity, !use);
                     }
                     else
                     {
-                        bodiesList[index] = new ShopItemQuantityClass(item.name, item.quantity, use);
+                        Debug.Log(item.name + " used = " + use);
+                        bodiesList[i] = new ShopItemQuantityClass(item.name, item.quantity, use);
                     }
                 }   
             }
@@ -167,14 +169,14 @@ public class GameDataStore : GameDataStoreBase
             {
                 for (int i = 0; i < particlesList.Count; i++)
                 {
-                    item = particlesList[index];
+                    item = particlesList[i];
                     if (i != index)
                     {
-                        particlesList[index] = new ShopItemQuantityClass(item.name, item.quantity, !use);
+                        particlesList[i] = new ShopItemQuantityClass(item.name, item.quantity, !use);
                     }
                     else
                     {
-                        particlesList[index] = new ShopItemQuantityClass(item.name, item.quantity, use);
+                        particlesList[i] = new ShopItemQuantityClass(item.name, item.quantity, use);
                     }
                 }
             }
@@ -223,6 +225,23 @@ public class GameDataStore : GameDataStoreBase
             if (item.useNow == true)
                 return true;
         }
+
+        index = bodiesList.FindLastIndex(c => c.name == key);
+        if (index != -1)
+        {
+            item = bodiesList[index];
+            if (item.useNow == true)
+                return true;
+        }
+
+        index = particlesList.FindLastIndex(c => c.name == key);
+        if (index != -1)
+        {
+            item = particlesList[index];
+            if (item.useNow == true)
+                return true;
+        }
+
         return false;
     }
     

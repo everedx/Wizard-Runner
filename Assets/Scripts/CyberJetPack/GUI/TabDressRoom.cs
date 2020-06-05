@@ -18,7 +18,6 @@ public class TabDressRoom : MonoBehaviour
     [SerializeField] Marquee marqueeText;
     [SerializeField] GameObject buttonTabPowers;
     [SerializeField] GameObject buttonTabBodies;
-    [SerializeField] GameObject buttonTabParticles;
     [SerializeField] DressRoomStruct[] namesOfPowers;
     [SerializeField] DressRoomStruct[] namesOfBodies;
     [SerializeField] DressRoomStruct[] namesOfParticles;
@@ -207,7 +206,7 @@ public class TabDressRoom : MonoBehaviour
         //disable everything else
         enableColors(buttonTabPowers.GetComponent<Button>());
         disableColors(buttonTabBodies.GetComponent<Button>());
-        disableColors(buttonTabParticles.GetComponent<Button>());
+       // disableColors(buttonTabParticles.GetComponent<Button>());
         // load Powers and mark the button as Active
   
 
@@ -219,7 +218,7 @@ public class TabDressRoom : MonoBehaviour
         //disable everything else
         enableColors(buttonTabBodies.GetComponent<Button>());
         disableColors(buttonTabPowers.GetComponent<Button>());
-        disableColors(buttonTabParticles.GetComponent<Button>());
+      //  disableColors(buttonTabParticles.GetComponent<Button>());
         // load Bodies and mark the button as Active
     }
 
@@ -227,7 +226,7 @@ public class TabDressRoom : MonoBehaviour
     {
 
         //disable everything else
-        enableColors(buttonTabParticles.GetComponent<Button>());
+       // enableColors(buttonTabParticles.GetComponent<Button>());
         disableColors(buttonTabBodies.GetComponent<Button>());
         disableColors(buttonTabPowers.GetComponent<Button>());
         // load Powers and mark the button as Active

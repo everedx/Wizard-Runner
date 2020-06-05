@@ -64,10 +64,23 @@ public class PlayerItemsForLevel : MonoBehaviour
 
             }
         }
-        
+
         //Get body to use
 
+        ShopItemQuantityClass body= GameManager.instance.getBodyToUse();
 
+        switch (body.name)
+        {
+            case "DefaultBody":
+                //GetComponent<Animator>().runtimeAnimatorController =(RuntimeAnimatorController) Resources.Load("path_to_your_controller");
+                break;
+            case "RedBody":
+                GetComponent<Animator>().runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("Red");
+                break;
+            case "PurpleBody":
+                GetComponent<Animator>().runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("Purple");
+                break;
+        }
 
         //Get particle to use
 
@@ -83,6 +96,8 @@ public class PlayerItemsForLevel : MonoBehaviour
         public string name;
         public Sprite image;
     }
+
+
 
 
 }

@@ -14,9 +14,9 @@ public class InterstitialAd : MonoBehaviour
     private string levelToLoad;
     void Start()
     {
-        if (!Advertisement.isInitialized)
-            Advertisement.Initialize(gameId, testMode);
-        levelToLoad = null;
+        //if (!Advertisement.isInitialized)
+        //    Advertisement.Initialize(gameId, testMode);
+        //levelToLoad = null;
     }
 
 
@@ -24,43 +24,43 @@ public class InterstitialAd : MonoBehaviour
     public void showAd(string ltl)
     {
         levelToLoad = ltl;
-        if (!ltl.Equals("MainMenu"))
-        {
-            //first time game executed.
-            if (GameManager.instance.getDateLastCommercial() == 0)
-            {
-                GameManager.instance.setDateLastCommercial();
-                changeLevel();
-            }
+        //if (!ltl.Equals("MainMenu"))
+        //{
+        //    //first time game executed.
+        //    if (GameManager.instance.getDateLastCommercial() == 0)
+        //    {
+        //        GameManager.instance.setDateLastCommercial();
+        //        changeLevel();
+        //    }
 
-            TimeSpan t = DateTime.UtcNow - new DateTime(1970,1,1).AddSeconds(GameManager.instance.getDateLastCommercial());
+        //    TimeSpan t = DateTime.UtcNow - new DateTime(1970,1,1).AddSeconds(GameManager.instance.getDateLastCommercial());
 
-            Debug.Log(t.TotalSeconds);
-            if (t.TotalSeconds > secondsToWaitUntilNextAd)
-            {
+        //    Debug.Log(t.TotalSeconds);
+        //    if (t.TotalSeconds > secondsToWaitUntilNextAd)
+        //    {
 
-                ShowOptions showOptions = new ShowOptions();
+        //        ShowOptions showOptions = new ShowOptions();
                 
-                showOptions.resultCallback = result =>
-                {
-                    GameManager.instance.setDateLastCommercial();
-                    changeLevel();
-                };
-                if (Advertisement.IsReady())
-                {
+        //        showOptions.resultCallback = result =>
+        //        {
+        //            GameManager.instance.setDateLastCommercial();
+        //            changeLevel();
+        //        };
+        //        if (Advertisement.IsReady())
+        //        {
                    
-                    Advertisement.Show("video",showOptions);
-                }
-            }
-            else
-            {
-                changeLevel();
-            }
-        }
-        else
-        {
+        //            Advertisement.Show("video",showOptions);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        changeLevel();
+        //    }
+        //}
+        //else
+        //{
             changeLevel();
-        }
+        //}
 
     }
 
